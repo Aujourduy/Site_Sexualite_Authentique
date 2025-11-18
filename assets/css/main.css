@@ -119,7 +119,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-semibold);
   line-height: 1.3;
   color: var(--gris-fonce);
+  margin-top: var(--spacing-xl);  /* Ajoute de l'espace au-dessus des titres */
   margin-bottom: var(--spacing-md);
+}
+
+/* Premier titre d'une section n'a pas besoin de marge en haut */
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin-top: 0;
 }
 
 h1 {
@@ -169,6 +180,45 @@ blockquote {
   border-left: 4px solid var(--terracotta);
   font-style: italic;
   color: var(--gris-moyen);
+}
+
+/* Listes */
+ul, ol {
+  margin: var(--spacing-md) 0;
+  padding-left: var(--spacing-xl);  /* Indentation pour que les puces/numéros restent dans le bloc */
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+li {
+  margin-bottom: var(--spacing-sm);
+  padding-left: var(--spacing-xs);  /* Petit espace entre puce et texte */
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+/* Listes imbriquées */
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin-top: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Lignes de séparation */
+hr {
+  border: none;
+  border-top: 1px solid var(--gris-clair);
+  margin: var(--spacing-2xl) 0;  /* Beaucoup d'espace autour des séparateurs */
 }
 
 /* ============================================
@@ -262,6 +312,22 @@ section {
 
 .nav-desktop a:hover:not(.btn) {
   color: var(--bordeaux);
+}
+
+/* Bouton CTA dans le header - meilleure lisibilité */
+.nav-desktop .btn {
+  font-size: var(--font-size-sm);
+  padding: 0.625rem var(--spacing-md);  /* Padding légèrement réduit pour le header */
+  font-weight: var(--font-weight-bold);  /* Plus gras pour meilleure lisibilité */
+  box-shadow: 0 2px 4px rgba(139, 58, 58, 0.2);  /* Ombre légère pour faire ressortir */
+}
+
+.nav-desktop .btn-bordeaux {
+  color: #FFFFFF;  /* Blanc pur pour maximum de contraste */
+}
+
+.nav-desktop .btn:hover {
+  box-shadow: 0 4px 8px rgba(139, 58, 58, 0.3);
 }
 
 /* Menu Mobile */
