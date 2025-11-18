@@ -305,17 +305,19 @@ section {
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-sm);
   transition: var(--transition);
-  padding: var(--spacing-xs) 0;
+  padding: var(--spacing-xs) var(--spacing-sm);  /* Padding horizontal pour l'effet background */
+  border-radius: var(--radius-sm);
   position: relative;
 }
 
 .nav-desktop a.active {
   color: var(--bordeaux);
+  background-color: rgba(245, 235, 224, 0.5);  /* Beige très léger pour l'item actif */
 }
 
 .nav-desktop a:hover:not(.btn) {
   color: var(--bordeaux);
-  text-shadow: 0 2px 4px rgba(139, 58, 58, 0.15);  /* Ombre légère sur le texte au hover */
+  background-color: rgba(245, 235, 224, 0.7);  /* Beige légèrement plus visible au hover */
 }
 
 /* Bouton CTA dans le header - meilleure lisibilité */
