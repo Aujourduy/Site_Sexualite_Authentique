@@ -211,6 +211,6 @@ Si mon parcours résonne en vous, commençons par une **Séance Diagnostic de 60
 
 On clarifie ensemble où vous en êtes et si le passage à 100% est fait pour vous maintenant.
 
-[Réserver ma Séance Offerte](/seance-diagnostic/){: .btn .btn-bordeaux .btn-large}
+[Réserver ma Séance Offerte]({{ '/seance-diagnostic/' | relative_url }}){: .btn .btn-bordeaux .btn-large}
 
-Ou simplement [me contacter](/contact/) pour toute question.
+Ou simplement [me contacter]({{ '/contact/' | relative_url }}) pour toute question.

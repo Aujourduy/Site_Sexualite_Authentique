@@ -152,7 +152,7 @@ Je ne fais pas de relance commerciale. Si vous voulez démarrer le parcours, c'e
 
 ## Prêt·e à réserver ?
 
-Si vous vous reconnaissez dans [les douleurs que j'accompagne](/#douleurs), dans [mon approche](/mon-approche/), et que vous vous posez la question du passage à 100% d'authenticité...
+Si vous vous reconnaissez dans [les douleurs que j'accompagne]({{ '/#douleurs' | relative_url }}), dans [mon approche]({{ '/mon-approche/' | relative_url }}), et que vous vous posez la question du passage à 100% d'authenticité...
 
 Réservez votre Séance Diagnostic.
 
@@ -164,12 +164,12 @@ On clarifiera ensemble si c'est le bon moment pour vous.
 
 ---
 
-**Note :** Les créneaux disponibles sont limités à **8 séances diagnostic par mois**. Si aucun créneau n'est disponible dans les semaines à venir, vous pouvez [me contacter par email](/contact/) pour être prévenu·e des prochaines disponibilités.
+**Note :** Les créneaux disponibles sont limités à **8 séances diagnostic par mois**. Si aucun créneau n'est disponible dans les semaines à venir, vous pouvez [me contacter par email]({{ '/contact/' | relative_url }}) pour être prévenu·e des prochaines disponibilités.
 
 ---
 
 ## Des questions avant de réserver ?
 
-N'hésitez pas à [me contacter](/contact/). Je réponds personnellement à tous les messages.
+N'hésitez pas à [me contacter]({{ '/contact/' | relative_url }}). Je réponds personnellement à tous les messages.
 
-Ou consultez la [FAQ complète](/faq/) pour plus de réponses.
+Ou consultez la [FAQ complète]({{ '/faq/' | relative_url }}) pour plus de réponses.

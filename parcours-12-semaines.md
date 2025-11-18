@@ -155,7 +155,7 @@ Si à l'issue de cette séance :
 
 {% endfor %}
 
-[Voir tous les témoignages](/temoignages/){: .btn .btn-outline}
+[Voir tous les témoignages]({{ '/temoignages/' | relative_url }}){: .btn .btn-outline}
 
 ---
 
@@ -177,7 +177,7 @@ Le parcours fonctionne aussi pour les femmes en couple. Mais l'objectif reste le
 
 Oui. Même si la majorité de mes clientes sont des femmes, j'ai aussi accompagné des hommes. Les principes sont les mêmes. Contactez-moi pour en discuter.
 
-[Voir toutes les questions fréquentes](/faq/){: .btn .btn-outline}
+[Voir toutes les questions fréquentes]({{ '/faq/' | relative_url }}){: .btn .btn-outline}
 
 ---
 
@@ -189,4 +189,4 @@ C'est aussi le plus libérateur.
 Commencez par réserver votre Séance Diagnostic offerte.
 On verra ensemble si c'est le bon moment pour vous.
 
-[Réserver ma Séance Diagnostic Offerte](/seance-diagnostic/){: .btn .btn-bordeaux .btn-large}
+[Réserver ma Séance Diagnostic Offerte]({{ '/seance-diagnostic/' | relative_url }}){: .btn .btn-bordeaux .btn-large}

@@ -74,4 +74,4 @@ Commencez par réserver votre **Séance Diagnostic de 60 minutes offerte**.
 
 On clarifiera ensemble où vous en êtes et si le passage à 100% est fait pour vous maintenant.
 
-[Réserver ma Séance Offerte](/seance-diagnostic/){: .btn .btn-bordeaux .btn-large}
+[Réserver ma Séance Offerte]({{ '/seance-diagnostic/' | relative_url }}){: .btn .btn-bordeaux .btn-large}
