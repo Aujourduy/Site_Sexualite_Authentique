@@ -81,23 +81,58 @@ Le site sera disponible à : `https://[votre-username].github.io/Site_Sexualite_
 
 ### Étape 3 : Configuration du domaine personnalisé
 
+#### A. Modifier _config.yml
+
+**IMPORTANT :** Avant de configurer le domaine sur GitHub, modifiez `_config.yml` :
+
+```yaml
+# Changez ces lignes :
+url: "https://aujourduy.github.io"              # Ancien
+baseurl: "/Site_Sexualite_Authentique"         # Ancien
+
+# En :
+url: "https://sexualite-authentique.fr"         # Nouveau
+baseurl: ""                                     # Vide car le site sera à la racine
+```
+
+Puis commit et push :
+```bash
+git add _config.yml
+git commit -m "Configuration domaine personnalisé"
+git push
+```
+
+#### B. Configurer GitHub Pages
+
 1. Dans **Settings** → **Pages** → **Custom domain**
 2. Entrez : `sexualite-authentique.fr`
-3. Cliquez sur **Save**
+3. Cochez **Enforce HTTPS** (après propagation DNS)
+4. Cliquez sur **Save**
 
-4. Chez votre registrar de domaine, configurez les DNS :
-   ```
-   Type: A
-   Name: @
-   Value: 185.199.108.153
-   Value: 185.199.109.153
-   Value: 185.199.110.153
-   Value: 185.199.111.153
+#### C. Configurer DNS chez votre registrar
 
-   Type: CNAME
-   Name: www
-   Value: [votre-username].github.io
-   ```
+Chez votre registrar de domaine (OVH, Gandi, etc.), configurez :
+
+```
+Type: A
+Name: @
+Value: 185.199.108.153
+Value: 185.199.109.153
+Value: 185.199.110.153
+Value: 185.199.111.153
+
+Type: CNAME
+Name: www
+Value: aujourduy.github.io
+```
+
+**Délai de propagation :** 1h à 24h
+
+#### D. Vérifier
+
+Une fois la propagation terminée, votre site sera accessible sur :
+- `https://sexualite-authentique.fr`
+- `https://www.sexualite-authentique.fr`
 
 ---
 
