@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Sexualité Authentique - Upload de Fichiers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Site Sexualité Authentique</h1>
+            <p class="subtitle">Espace de partage sécurisé</p>
+        </header>
+
+        <main>
+            <div class="upload-section">
+                <h2>Téléverser un fichier</h2>
+                <form id="uploadForm" action="upload.php" method="POST" enctype="multipart/form-data">
+                    <div class="file-input-wrapper">
+                        <input type="file" name="fileToUpload" id="fileToUpload" accept="image/*,.pdf,.doc,.docx,.txt" required>
+                        <label for="fileToUpload" class="file-label">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="17 8 12 3 7 8"></polyline>
+                                <line x1="12" y1="3" x2="12" y2="15"></line>
+                            </svg>
+                            <span id="fileName">Choisir un fichier ou glisser-déposer ici</span>
+                        </label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="description">Description (optionnelle) :</label>
+                        <textarea id="description" name="description" rows="4" placeholder="Ajoutez une description pour ce fichier..."></textarea>
+                    </div>
+
+                    <button type="submit" class="upload-btn" name="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                        Téléverser le fichier
+                    </button>
+                </form>
+
+                <div id="uploadStatus" class="status-message"></div>
+            </div>
+
+            <div class="info-section">
+                <h3>Formats acceptés :</h3>
+                <ul>
+                    <li>Images (JPG, PNG, GIF, etc.)</li>
+                    <li>Documents PDF</li>
+                    <li>Documents Word (DOC, DOCX)</li>
+                    <li>Fichiers texte (TXT)</li>
+                </ul>
+                <p class="note">Taille maximale : 10 MB</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Site Sexualité Authentique. Tous droits réservés.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
