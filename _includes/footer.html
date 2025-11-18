@@ -1,0 +1,78 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+
+      <!-- Colonne 1 : Navigation -->
+      <div class="footer-col">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="/">Accueil</a></li>
+          <li><a href="/mon-approche/">Mon Approche</a></li>
+          <li><a href="/parcours-12-semaines/">Le Parcours</a></li>
+          <li><a href="/qui-suis-je/">Qui Suis-Je</a></li>
+        </ul>
+      </div>
+
+      <!-- Colonne 2 : Ressources -->
+      <div class="footer-col">
+        <h3>Ressources</h3>
+        <ul>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/videos/">Vidéos</a></li>
+          <li><a href="/quiz-amant-sensible/">Quiz Amant Sensible</a></li>
+          <li><a href="/faq/">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- Colonne 3 : Contact -->
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="/seance-diagnostic/">Séance Diagnostic</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="mailto:{{ site.data.config.contact.email }}">{{ site.data.config.contact.email }}</a></li>
+        </ul>
+
+        {% if site.data.config.social.facebook %}
+        <div class="social-links">
+          <a href="{{ site.data.config.social.facebook }}" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg class="icon-facebook" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+          </a>
+        </div>
+        {% endif %}
+      </div>
+
+      <!-- Colonne 4 : Légal -->
+      <div class="footer-col">
+        <h3>Légal</h3>
+        <ul>
+          <li><a href="/mentions-legales/">Mentions Légales</a></li>
+          <li><a href="/politique-confidentialite/">Politique de Confidentialité</a></li>
+          <li><a href="/cgv/">CGV</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+      <p class="copyright">
+        &copy; {{ 'now' | date: "%Y" }} {{ site.author.name }} - Tous droits réservés
+      </p>
+      <p class="why">{{ site.data.config.why.titre }}</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Script pour le menu mobile -->
+<script>
+  const menuToggle = document.getElementById('menuToggle');
+  const navMobile = document.getElementById('navMobile');
+
+  menuToggle.addEventListener('click', () => {
+    navMobile.classList.toggle('active');
+    menuToggle.classList.toggle('active');
+  });
+</script>

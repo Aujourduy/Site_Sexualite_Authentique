@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<article class="page">
+
+  {% if page.show_hero != false %}
+  <section class="page-hero">
+    <div class="container">
+      {% if page.breadcrumb != false %}
+      <nav class="breadcrumb" aria-label="Fil d'ariane">
+        <a href="/">Accueil</a>
+        <span class="separator">›</span>
+        <span class="current">{{ page.title }}</span>
+      </nav>
+      {% endif %}
+
+      <h1 class="page-title">{{ page.title }}</h1>
+
+      {% if page.subtitle %}
+      <p class="page-subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+    </div>
+  </section>
+  {% endif %}
+
+  <section class="page-content">
+    <div class="container {% if page.container_size %}container-{{ page.container_size }}{% else %}container-medium{% endif %}">
+      {{ content }}
+    </div>
+  </section>
+
+  {% if page.show_cta != false %}
+  <section class="page-cta">
+    <div class="container container-small">
+      <div class="cta-box">
+        <h2>{{ site.data.config.why.titre }}</h2>
+        <p>{{ site.data.config.diagnostic.description }}</p>
+        <a href="{{ site.data.config.cta_principal.url }}" class="btn btn-{{ site.data.config.cta_principal.couleur }} btn-large">
+          {{ site.data.config.cta_principal.texte }}
+        </a>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+</article>

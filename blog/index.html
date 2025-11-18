@@ -1,0 +1,96 @@
+---
+layout: page
+title: "Blog"
+subtitle: "Réflexions sur la sexualité authentique, l'amour à 100%, et le chemin vers soi"
+permalink: /blog/
+show_hero: true
+breadcrumb: false
+---
+
+<div class="blog-list">
+  {% if site.posts.size > 0 %}
+    {% for post in site.posts %}
+      <article class="blog-post-preview">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+
+        <div class="post-meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: "%-d %B %Y" }}
+          </time>
+          {% if post.reading_time %}
+          <span class="separator">•</span>
+          <span class="reading-time">{{ post.reading_time }} min</span>
+          {% endif %}
+          {% if post.categories %}
+          <span class="separator">•</span>
+          <span class="categories">
+            {% for category in post.categories %}
+              {{ category }}{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </span>
+          {% endif %}
+        </div>
+
+        {% if post.subtitle %}
+        <p class="post-subtitle">{{ post.subtitle }}</p>
+        {% endif %}
+
+        {% if post.excerpt %}
+        <div class="post-excerpt">
+          {{ post.excerpt }}
+        </div>
+        {% endif %}
+
+        <a href="{{ post.url }}" class="read-more">Lire la suite →</a>
+      </article>
+
+      {% unless forloop.last %}
+      <hr style="margin: 3rem 0; border: none; border-top: 1px solid var(--gris-clair);">
+      {% endunless %}
+    {% endfor %}
+  {% else %}
+    <p style="text-align: center; color: var(--gris-moyen); font-size: var(--font-size-lg); margin: var(--spacing-3xl) 0;">
+      Les articles arrivent bientôt. Revenez prochainement !
+    </p>
+  {% endif %}
+</div>
+
+<style>
+.blog-post-preview {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.blog-post-preview h2 {
+  margin-bottom: var(--spacing-sm);
+}
+
+.blog-post-preview h2 a {
+  color: var(--gris-fonce);
+}
+
+.blog-post-preview h2 a:hover {
+  color: var(--bordeaux);
+}
+
+.post-subtitle {
+  font-size: var(--font-size-md);
+  color: var(--gris-moyen);
+  font-weight: var(--font-weight-light);
+  margin-bottom: var(--spacing-md);
+}
+
+.post-excerpt {
+  color: var(--gris-moyen);
+  line-height: 1.7;
+  margin-bottom: var(--spacing-md);
+}
+
+.read-more {
+  font-weight: var(--font-weight-medium);
+  color: var(--bordeaux);
+}
+
+.read-more:hover {
+  color: var(--terracotta);
+}
+</style>

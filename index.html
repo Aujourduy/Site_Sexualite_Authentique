@@ -1,0 +1,251 @@
+---
+layout: home
+title: "Accueil"
+custom_css: "home.css"
+body_class: "page-home"
+---
+
+<!-- SECTION HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>{{ site.data.config.why.titre }}</h1>
+        <p class="subtitle">
+          Et si le problème n'était pas de trouver la bonne personne,<br>
+          mais d'oser être pleinement vous-même ?
+        </p>
+        <div class="hero-cta">
+          <a href="{{ site.data.config.cta_principal.url }}" class="btn btn-bordeaux btn-large">
+            {{ site.data.config.cta_principal.texte }}
+          </a>
+          <a href="/mon-approche/" class="btn btn-outline btn-large">
+            Découvrir mon approche →
+          </a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <!-- Photo de danse en mouvement (placeholder) -->
+        <img src="https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=600&h=700&fit=crop&auto=format&q=80"
+             alt="Danse libre - Liberté d'être"
+             loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION MÉTAPHORE -->
+<section class="metaphore section-beige">
+  <div class="container">
+    <div class="metaphore-content">
+      <h2>
+        99° ou 100° : Ce n'est pas une question d'intensité,<br>
+        c'est un changement de nature
+      </h2>
+      <div class="metaphore-text">
+        <p>
+          L'eau à 99° reste de l'eau chaude. Elle peut vous donner un bain agréable,
+          une tisane réconfortante.
+        </p>
+        <p>
+          <strong class="metaphore-highlight">
+            Mais à 100°, elle devient vapeur. Elle change de nature.
+          </strong>
+          Elle fait tourner des machines, alimente des centrales électriques,
+          donne vie aux foyers, aux écoles, aux hôpitaux.
+        </p>
+        <p>
+          Votre vie intime, c'est pareil.
+        </p>
+        <p>
+          Vous pouvez vivre à 95%, 98%, 99% d'authenticité. Vous aurez des relations
+          agréables, confortables. Mais vous sentirez toujours qu'il manque quelque chose.
+        </p>
+        <p>
+          <strong class="metaphore-highlight">
+            À 100%, tout change. Ce n'est plus "un peu mieux". C'est une autre dimension
+            de l'amour et de la connexion.
+          </strong>
+        </p>
+      </div>
+      <a href="/mon-approche/" class="btn btn-bordeaux">
+        Je veux découvrir ce que ça change
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION LES 5 DOULEURS -->
+<section class="douleurs section-blanc">
+  <div class="container">
+    <h2 class="douleurs-title">Vous vous reconnaissez ?</h2>
+
+    <div class="douleurs-list">
+      {% for douleur in site.data.config.douleurs %}
+      <div class="douleur-item">
+        <span class="icon">{{ douleur.icon }}</span>
+        <span class="douleur-text">"{{ douleur.texte }}"</span>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="douleurs-footer">
+      <p>
+        Si vous hochez la tête en lisant ces phrases, vous êtes au bon endroit.
+      </p>
+      <p>
+        Parce que ce ne sont pas des problèmes à résoudre. Ce sont des symptômes
+        d'une seule et même racine : <strong>vous vivez à 95% de qui vous êtes vraiment.</strong>
+      </p>
+      <p>
+        Et personne ne vous a jamais dit qu'il était possible de vivre à 100%.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION LES 4 TRANSFORMATIONS -->
+<section class="transformations section-terracotta">
+  <div class="container">
+    <h2 class="transformations-title">Ce qui change quand vous passez à 100%</h2>
+
+    <div class="transformations-grid">
+      {% for transformation in site.data.config.transformations %}
+      <div class="transformation-card">
+        <div class="icon">{{ transformation.icon }}</div>
+        <h3>{{ transformation.titre }}</h3>
+        <p>{{ transformation.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="transformations-cta">
+      <a href="/parcours-12-semaines/" class="btn btn-bordeaux btn-large">
+        Comment j'y arrive ?
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION TÉMOIGNAGES EXPRESS -->
+<section class="temoignages-express section-blanc">
+  <div class="container">
+    <h2 class="temoignages-title">Elles ont osé les 100%</h2>
+
+    <div class="temoignages-carousel">
+      {% for temoignage in site.data.testimonials.temoignages limit:3 %}
+      <div class="temoignage-mini">
+        <p class="temoignage-quote">{{ temoignage.citation_courte }}</p>
+        <p class="temoignage-author">— {{ temoignage.nom }}, {{ temoignage.age }} ans</p>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="temoignages-link">
+      <a href="/temoignages/">Lire tous les témoignages →</a>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION LE PARCOURS -->
+<section class="parcours-home section-olive">
+  <div class="container">
+    <h2 class="parcours-title">Le Parcours de Libération : 12 semaines pour vivre à 100%</h2>
+
+    <div class="etapes-grid">
+      {% for etape in site.data.config.etapes %}
+      <div class="etape">
+        <div class="etape-numero">{{ etape.numero }}</div>
+        <div class="etape-content">
+          <h3>{{ etape.titre }}</h3>
+          <p>{{ etape.description }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="parcours-details">
+      <ul>
+        <li>📅 {{ site.data.config.offre.duree }}</li>
+        <li>💬 {{ site.data.config.offre.seances }}</li>
+        <li>🎯 Principes + Pratiques + Coaching personnalisé</li>
+        <li>📱 {{ site.data.config.offre.suivi }}</li>
+        <li>💰 {{ site.data.config.offre.prix }}{{ site.data.config.offre.devise }} ({{ site.data.config.offre.paiement_echelonne }})</li>
+      </ul>
+    </div>
+
+    <div class="parcours-cta">
+      <a href="{{ site.data.config.cta_principal.url }}" class="btn btn-bordeaux btn-large">
+        {{ site.data.config.cta_principal.texte }}
+      </a>
+      <br><br>
+      <a href="/parcours-12-semaines/">Découvrir le parcours en détail →</a>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION QUI SUIS-JE EXPRESS -->
+<section class="qui-suis-je-home section-blanc">
+  <div class="container">
+    <div class="qui-suis-je-content">
+      <div class="qui-suis-je-image">
+        <!-- Portrait N&B (placeholder) -->
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=400&fit=crop&auto=format&q=80&sat=-100"
+             alt="Duy Dang - Coach en Sexualité Authentique"
+             loading="lazy">
+      </div>
+      <div class="qui-suis-je-text">
+        <h2>Duy Dang</h2>
+        <h3>Coach en Relation Amoureuse & Sexualité Authentique</h3>
+        <p>
+          Formateur en communication et leadership pendant 10 ans.<br>
+          17 ans de pratique de danse libre et Contact Impro.<br>
+          13 ans d'accompagnement avec Eric Baret (Shivaïsme du Cachemire).<br>
+          Ingénieur, doctorant en mathématiques.
+        </p>
+        <p>
+          J'ai passé des années à croire qu'on pouvait vivre l'amour à 95%.
+          J'avais tort.
+        </p>
+        <p>
+          Aujourd'hui j'accompagne les femmes sensibles à faire le chemin que
+          j'ai mis des années à comprendre : <strong>l'amour vrai ne commence qu'à 100%
+          d'authenticité.</strong>
+        </p>
+        <a href="/qui-suis-je/">Découvrir mon parcours complet →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION CTA FINAL -->
+<section class="cta-final">
+  <div class="container">
+    <h2>Prête à découvrir ce que ça change, vraiment ?</h2>
+    <p>
+      Réservez votre Séance Diagnostic de 60 minutes.<br>
+      Complètement offerte. Sans engagement.
+    </p>
+    <p>
+      On clarifie ensemble où vous en êtes et si le passage à 100%
+      est fait pour vous maintenant.
+    </p>
+    <a href="{{ site.data.config.cta_principal.url }}" class="btn btn-large">
+      {{ site.data.config.cta_principal.texte }}
+    </a>
+  </div>
+</section>
+
+<!-- SECTION QUIZ TEASER -->
+<section class="quiz-teaser section-terracotta">
+  <div class="container">
+    <h2>Êtes-vous un·e Amant·e Sensible ?</h2>
+    <p>
+      Découvrez votre profil en 20 questions.<br>
+      Test gratuit, résultat immédiat.
+    </p>
+    <a href="/quiz-amant-sensible/" class="btn btn-bordeaux btn-large">
+      Faire le test (2 minutes) →
+    </a>
+  </div>
+</section>

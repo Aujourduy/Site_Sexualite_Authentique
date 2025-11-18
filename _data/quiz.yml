@@ -1,0 +1,389 @@
+# Quiz "Amant·e Sensible" - 20 Questions + 4 Profils
+# Système de scoring : chaque réponse donne 0-4 points
+# Score total sur 80 points
+
+quiz:
+  titre: "Êtes-vous un·e Amant·e Sensible ?"
+  description: |
+    Découvrez votre profil en 20 questions.
+    Ce test explore votre rapport à l'authenticité, la connexion et la sensibilité dans l'intimité.
+  duree: "2-3 minutes"
+
+# Les 20 questions
+questions:
+  - id: 1
+    texte: "Dans l'intimité, je privilégie..."
+    reponses:
+      - texte: "La performance et le résultat"
+        points: 0
+      - texte: "Le plaisir physique intense"
+        points: 1
+      - texte: "La connexion émotionnelle"
+        points: 3
+      - texte: "La présence et la conscience de l'instant"
+        points: 4
+
+  - id: 2
+    texte: "Quand je ressens une émotion pendant l'acte intime..."
+    reponses:
+      - texte: "Je la cache pour ne pas briser l'ambiance"
+        points: 0
+      - texte: "Je la retiens et continue comme si de rien n'était"
+        points: 1
+      - texte: "J'essaie de l'exprimer mais j'ai peur de la réaction"
+        points: 2
+      - texte: "Je l'accueille et la partage authentiquement"
+        points: 4
+
+  - id: 3
+    texte: "Ma plus grande peur dans la sexualité est..."
+    reponses:
+      - texte: "Ne pas être performant·e"
+        points: 0
+      - texte: "Décevoir mon·ma partenaire"
+        points: 1
+      - texte: "Ne pas être aimé·e si je suis vraiment moi-même"
+        points: 3
+      - texte: "Je n'ai plus vraiment de peur, juste de la curiosité"
+        points: 4
+
+  - id: 4
+    texte: "Quand mon·ma partenaire me demande ce que je veux..."
+    reponses:
+      - texte: "Je dis 'ce que tu veux' ou 'comme d'habitude'"
+        points: 0
+      - texte: "Je propose quelque chose de 'normal' pour ne pas choquer"
+        points: 1
+      - texte: "J'essaie d'être honnête mais je filtre mes vrais désirs"
+        points: 2
+      - texte: "J'exprime mes désirs authentiques sans honte"
+        points: 4
+
+  - id: 5
+    texte: "Pour moi, une sexualité épanouie c'est avant tout..."
+    reponses:
+      - texte: "Atteindre l'orgasme"
+        points: 0
+      - texte: "Satisfaire mon·ma partenaire"
+        points: 1
+      - texte: "Me sentir en sécurité pour être moi-même"
+        points: 3
+      - texte: "Une communion d'êtres au-delà du physique"
+        points: 4
+
+  - id: 6
+    texte: "Pendant l'intimité, mon attention est principalement..."
+    reponses:
+      - texte: "Sur la technique et ce que je dois faire"
+        points: 0
+      - texte: "Sur mon plaisir ou celui de l'autre"
+        points: 1
+      - texte: "Partagée entre sensations et pensées"
+        points: 2
+      - texte: "Totalement présente à ce qui est, sans agenda"
+        points: 4
+
+  - id: 7
+    texte: "Quand je sens que quelque chose ne va pas pendant l'acte..."
+    reponses:
+      - texte: "Je continue jusqu'au bout sans rien dire"
+        points: 0
+      - texte: "J'attends la fin pour peut-être en parler"
+        points: 1
+      - texte: "Je fais des signaux mais sans vraiment l'exprimer clairement"
+        points: 2
+      - texte: "Je le dis tout de suite avec douceur et clarté"
+        points: 4
+
+  - id: 8
+    texte: "La lenteur dans la sexualité..."
+    reponses:
+      - texte: "M'ennuie, j'aime l'intensité et le rythme"
+        points: 0
+      - texte: "C'est bien de temps en temps, mais pas toujours"
+        points: 1
+      - texte: "Me fait peur car je ne sais pas quoi faire"
+        points: 2
+      - texte: "M'ouvre à des profondeurs que je n'imaginais pas"
+        points: 4
+
+  - id: 9
+    texte: "Mes fantasmes et désirs profonds..."
+    reponses:
+      - texte: "Je ne les partage jamais, c'est trop intime"
+        points: 0
+      - texte: "Je partage seulement les plus 'acceptables'"
+        points: 1
+      - texte: "Je les explore mais j'ai encore de la honte"
+        points: 2
+      - texte: "Je les vis comme des portes vers ma vérité profonde"
+        points: 4
+
+  - id: 10
+    texte: "Après l'intimité, je me sens généralement..."
+    reponses:
+      - texte: "Soulagé·e que ce soit fini"
+        points: 0
+      - texte: "Satisfait·e physiquement mais parfois vide émotionnellement"
+        points: 1
+      - texte: "Proche de mon·ma partenaire mais avec un léger malaise"
+        points: 2
+      - texte: "Profondément connecté·e, nourri·e, vivant·e"
+        points: 4
+
+  - id: 11
+    texte: "Mon corps pendant l'intimité est..."
+    reponses:
+      - texte: "Un outil pour le plaisir"
+        points: 0
+      - texte: "Une source de sensations agréables"
+        points: 1
+      - texte: "Un territoire que j'apprends encore à habiter"
+        points: 2
+      - texte: "Un temple sacré de présence et de révélation"
+        points: 4
+
+  - id: 12
+    texte: "Quand mon·ma partenaire propose quelque chose que je n'aime pas..."
+    reponses:
+      - texte: "J'accepte pour lui·elle faire plaisir"
+        points: 0
+      - texte: "J'accepte une fois puis j'évite le sujet"
+        points: 1
+      - texte: "Je dis non mais je me sens coupable"
+        points: 2
+      - texte: "Je dis non clairement et sereinement"
+        points: 4
+
+  - id: 13
+    texte: "La communication pendant l'acte sexuel..."
+    reponses:
+      - texte: "Me déconcentre, je préfère le silence"
+        points: 0
+      - texte: "C'est bien pour dire ce qui plaît ou déplaît"
+        points: 1
+      - texte: "J'aimerais mais je ne sais pas comment"
+        points: 2
+      - texte: "Est une danse verbale qui enrichit la connexion"
+        points: 4
+
+  - id: 14
+    texte: "Pour moi, la 'bonne' sexualité c'est..."
+    reponses:
+      - texte: "Celle qui ressemble aux films/livres/normes"
+        points: 0
+      - texte: "Celle où les deux ont du plaisir"
+        points: 1
+      - texte: "Celle où je peux être de plus en plus moi-même"
+        points: 3
+      - texte: "Celle qui révèle et célèbre mon être profond"
+        points: 4
+
+  - id: 15
+    texte: "Quand je pense à ma sexualité idéale, je ressens..."
+    reponses:
+      - texte: "Que c'est impossible ou réservé aux autres"
+        points: 0
+      - texte: "Que ça demande trop d'efforts ou de changements"
+        points: 1
+      - texte: "De l'espoir mélangé à de la peur"
+        points: 2
+      - texte: "De la joie car je sais que c'est accessible"
+        points: 4
+
+  - id: 16
+    texte: "Les préliminaires pour moi..."
+    reponses:
+      - texte: "C'est l'avant-match, le vrai truc c'est après"
+        points: 0
+      - texte: "C'est important pour l'excitation"
+        points: 1
+      - texte: "C'est là que la connexion se crée vraiment"
+        points: 3
+      - texte: "Il n'y a pas de préliminaires, tout est amour"
+        points: 4
+
+  - id: 17
+    texte: "Mes blocages sexuels viennent principalement de..."
+    reponses:
+      - texte: "Mon corps qui ne répond pas comme je veux"
+        points: 0
+      - texte: "Mon manque de technique ou d'expérience"
+        points: 1
+      - texte: "Ma peur du jugement et du rejet"
+        points: 3
+      - texte: "Je n'ai plus vraiment de blocages, juste des zones à explorer"
+        points: 4
+
+  - id: 18
+    texte: "Silence et présence pendant l'intimité..."
+    reponses:
+      - texte: "Me mettent mal à l'aise, j'ai besoin d'action"
+        points: 0
+      - texte: "C'est reposant de temps en temps"
+        points: 1
+      - texte: "Me font peur car je ne sais pas 'quoi faire'"
+        points: 2
+      - texte: "Sont les espaces les plus profonds de connexion"
+        points: 4
+
+  - id: 19
+    texte: "Je considère la sexualité comme..."
+    reponses:
+      - texte: "Un besoin physique à satisfaire"
+        points: 0
+      - texte: "Une source de plaisir et de détente"
+        points: 1
+      - texte: "Un langage d'amour et de connexion"
+        points: 3
+      - texte: "Une voie spirituelle de révélation de l'être"
+        points: 4
+
+  - id: 20
+    texte: "Si je devais choisir entre plaisir intense et connexion profonde..."
+    reponses:
+      - texte: "Plaisir intense sans hésiter"
+        points: 0
+      - texte: "Plaisir intense, mais la connexion c'est un plus"
+        points: 1
+      - texte: "Connexion profonde, mais le plaisir est important"
+        points: 3
+      - texte: "La connexion profonde EST le plaisir ultime"
+        points: 4
+
+# Les 4 profils basés sur le score total (0-80 points)
+profils:
+  - nom: "L'Explorateur·ice en Devenir"
+    score_min: 0
+    score_max: 20
+    emoji: "🌱"
+    resume: "Vous êtes au tout début du chemin vers une sexualité sensible et authentique."
+    description: |
+      Votre rapport à la sexualité est encore très influencé par les normes extérieures,
+      la performance, et les attentes sociales.
+
+      **Ce qui vous caractérise :**
+      - La sexualité est vue principalement comme un acte physique
+      - Vous avez du mal à exprimer vos vrais désirs
+      - La peur du jugement est très présente
+      - Vous privilégiez la performance ou satisfaire l'autre
+
+      **Ce qui est en train de naître :**
+      - Une intuition qu'il existe autre chose
+      - Une curiosité pour une sexualité plus profonde
+      - Le début d'une remise en question
+
+      **Votre prochaine étape :**
+      Commencez par observer sans jugement ce qui se passe en vous pendant l'intimité.
+      Pas besoin de changer quoi que ce soit pour l'instant. Juste observer et accueillir.
+
+      La graine est plantée. Elle va germer à son rythme.
+
+    cta: "Découvrir les ressources gratuites pour démarrer votre chemin"
+    cta_url: "/ressources/"
+
+  - nom: "L'Âme en Quête"
+    score_min: 21
+    score_max: 40
+    emoji: "🔍"
+    resume: "Vous savez qu'une autre sexualité est possible, mais vous sentez encore beaucoup de blocages."
+    description: |
+      Vous avez déjà commencé à vous questionner sur votre sexualité.
+      Vous sentez qu'il y a une profondeur que vous n'atteignez pas encore.
+
+      **Ce qui vous caractérise :**
+      - Vous cherchez, vous lisez, vous explorez
+      - Vous avez des désirs authentiques mais peur de les exprimer
+      - Vous oscillez entre moments de connexion et retour aux vieux schémas
+      - La honte et la peur sont encore présentes mais vous les reconnaissez
+
+      **Votre défi principal :**
+      Passer de la tête (comprendre intellectuellement) au corps (vivre l'expérience).
+      Vous savez beaucoup de choses, mais vous n'osez pas encore les incarner pleinement.
+
+      **Votre prochaine étape :**
+      Le travail sur la peur. 95% de vos blocages viennent de là.
+      Sans peur, vous sauriez naturellement quoi faire.
+
+      Un accompagnement pourrait être le catalyseur qui vous manque pour passer à l'action.
+
+    cta: "Réserver une séance diagnostic offerte pour clarifier votre chemin"
+    cta_url: "/seance-diagnostic/"
+
+  - nom: "L'Amant·e Éveillé·e"
+    score_min: 41
+    score_max: 60
+    emoji: "✨"
+    resume: "Vous vivez déjà des moments d'authenticité profonde, et vous voulez aller plus loin."
+    description: |
+      Vous avez déjà fait un beau chemin. Vous connaissez la différence entre
+      sexualité mécanique et sexualité consciente. Vous l'avez déjà goûtée.
+
+      **Ce qui vous caractérise :**
+      - Vous savez écouter votre corps et vos désirs
+      - Vous communiquez de plus en plus authentiquement
+      - Vous avez vécu des moments de connexion profonde
+      - Vous sentez qu'il y a encore des couches à libérer
+
+      **Votre défi principal :**
+      Passer de 80-90% d'authenticité à 100%.
+      Ces derniers pourcents sont les plus difficiles, mais ce sont eux qui changent la nature de l'expérience.
+
+      **Votre prochaine étape :**
+      Explorer les zones d'ombre qui restent. Les petites peurs subtiles.
+      Les compromis "pas graves" que vous faites encore.
+
+      Vous êtes prêt·e pour le passage à 100%. L'eau est à 95°, peut-être 98°.
+      Un dernier élan et elle devient vapeur.
+
+    cta: "Découvrir le Parcours 12 Semaines pour le passage à 100%"
+    cta_url: "/parcours-12-semaines/"
+
+  - nom: "L'Être Libre"
+    score_min: 61
+    score_max: 80
+    emoji: "🕊️"
+    resume: "Vous vivez une sexualité authentique, libre et profondément connectée."
+    description: |
+      Vous avez atteint (ou êtes très proche de) l'authenticité à 100%.
+      Votre sexualité est devenue une expression naturelle de votre être.
+
+      **Ce qui vous caractérise :**
+      - Vous êtes libre d'être pleinement vous-même dans l'intimité
+      - La peur et la honte ne guident plus vos choix
+      - Vous communiquez avec clarté et douceur
+      - La sexualité est pour vous une voie spirituelle
+
+      **Votre réalité :**
+      Vous vivez dans le paradigme RCS (Relaxation-Connexion-Sublimation).
+      EPE vous semble être d'une autre époque de votre vie.
+
+      Vous savez que chaque rencontre intime est unique.
+      Il n'y a plus de "technique" à appliquer, juste une présence à ce qui est.
+
+      **Votre prochaine étape :**
+      Peut-être n'avez-vous pas besoin d'accompagnement pour vous-même.
+      Mais peut-être que transmettre cette liberté aux autres vous appelle ?
+
+      Ou simplement continuer à approfondir, car ce chemin n'a pas de fin.
+      Il y a toujours plus de profondeur, plus de beauté, plus de vérité à découvrir.
+
+    cta: "Découvrir comment transmettre cette approche"
+    cta_url: "/contact/"
+
+# Logique de scoring
+scoring:
+  total_points_possibles: 80
+  interpretation:
+    - range: "0-20"
+      niveau: "Débutant"
+      profil: "L'Explorateur·ice en Devenir"
+    - range: "21-40"
+      niveau: "En recherche"
+      profil: "L'Âme en Quête"
+    - range: "41-60"
+      niveau: "En chemin"
+      profil: "L'Amant·e Éveillé·e"
+    - range: "61-80"
+      niveau: "Accompli"
+      profil: "L'Être Libre"

@@ -1,0 +1,117 @@
+# Configuration du site - Données centralisées
+
+# Contact
+contact:
+  email: "contact@sexualite-authentique.fr"
+  phone: "+33 6 XX XX XX XX"  # À compléter
+  tidycal: "https://tidycal.com/duy-dang/seance-diagnostic"  # À compléter
+
+# Offre principale
+offre:
+  nom: "Le Parcours de Libération"
+  duree: "12 semaines"
+  seances: "12 séances hebdomadaires de 90 minutes"
+  prix: 2400
+  devise: "€"
+  paiement_echelonne: "Paiement en 3 fois possible"
+  format: "Visio (one-to-one)"
+  suivi: "Suivi entre les séances (email/WhatsApp)"
+
+# Séance diagnostic
+diagnostic:
+  nom: "Séance Diagnostic"
+  duree: "60 minutes"
+  prix: "Offerte"
+  format: "Visio"
+  description: "Une séance de découverte pour clarifier où vous en êtes et voir si le passage à 100% est fait pour vous maintenant."
+
+# Les 4 transformations
+transformations:
+  - titre: "Oser sans peur ni honte"
+    description: "Vous exprimez vos désirs, vos limites, votre vérité. Sans masque. Sans peur de perdre l'autre."
+    icon: "✨"
+  - titre: "Attirer l'amour vrai"
+    description: "Vous créez une relation basée sur qui vous êtes vraiment. Pas sur qui vous croyez devoir être."
+    icon: "💕"
+  - titre: "Vivre sans masque"
+    description: "Votre sexualité devient l'expression de votre être profond. Pas une performance. Une révélation."
+    icon: "🔥"
+  - titre: "Être libre et aimée"
+    description: "Vous vous sentez pleinement vous-même ET profondément aimée. Les deux en même temps. Enfin."
+    icon: "🕊️"
+
+# Les 4 étapes du parcours
+etapes:
+  - numero: 1
+    titre: "Transmuter vos peurs et blessures"
+    description: "Ce qui vous retient n'est pas un défaut. C'est un masque. On identifie ces protections et on découvre qu'elles ne sont plus nécessaires."
+    courte: "De la peur à la liberté"
+  - numero: 2
+    titre: "S'autoriser et développer l'écoute de soi"
+    description: "Votre corps sait. Votre cœur sait. On réapprend à écouter vos sensations, vos envies, vos limites."
+    courte: "Oui quand c'est oui, non quand c'est non"
+  - numero: 3
+    titre: "Communiquer de manière authentique"
+    description: "Dire sa vérité sans violence. Entendre l'autre sans se perdre. Exprimer ses désirs sans honte."
+    courte: "Parler depuis l'être profond"
+  - numero: 4
+    titre: "Vivre une sexualité authentique"
+    description: "Passer du schéma Excitation-Pénétration-Éjaculation à Relaxation-Connexion-Sublimation."
+    courte: "De EPE à RCS"
+
+# Les 5 douleurs
+douleurs:
+  - texte: "J'ai peur de ne jamais trouver l'amour vrai"
+    icon: "🔥"
+    priorite: 1
+  - texte: "Je n'ose pas être moi-même par peur de perdre l'autre"
+    icon: "💔"
+    priorite: 2
+  - texte: "Je me sens bloquée dans ma sexualité"
+    icon: "🚫"
+    priorite: 3
+  - texte: "Je reproduis toujours les mêmes schémas"
+    icon: "🔁"
+    priorite: 4
+  - texte: "Je me sens seule même en couple"
+    icon: "😔"
+    priorite: 5
+
+# WHY
+why:
+  titre: "L'amour à 100% n'existe que dans l'authenticité à 100%"
+  metaphore_courte: "L'eau à 99° reste chaude. À 100°, elle devient vapeur."
+  metaphore_complete: |
+    L'eau à 99° reste de l'eau chaude. Elle peut vous donner un bain agréable, une tisane réconfortante.
+
+    Mais à 100°, elle devient vapeur. Elle change de nature. Elle fait tourner des machines,
+    alimente des centrales électriques, donne vie aux foyers, aux écoles, aux hôpitaux.
+
+    Ce n'est pas une question d'intensité. C'est un changement de nature.
+
+# Réseaux sociaux
+social:
+  facebook: "https://www.facebook.com/duydang.sexualite"  # À compléter
+  youtube: ""  # À compléter
+  instagram: ""  # À compléter
+
+# Navigation principale
+navigation:
+  - nom: "Accueil"
+    url: "/"
+  - nom: "Mon Approche"
+    url: "/mon-approche/"
+  - nom: "Le Parcours"
+    url: "/parcours-12-semaines/"
+  - nom: "Qui Suis-Je"
+    url: "/qui-suis-je/"
+  - nom: "Blog"
+    url: "/blog/"
+  - nom: "Ressources"
+    url: "/ressources/"
+
+# CTA principal
+cta_principal:
+  texte: "Réserver ma Séance Offerte"
+  url: "/seance-diagnostic/"
+  couleur: "bordeaux"

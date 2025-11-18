@@ -1,0 +1,56 @@
+# Bibliothèque Vidéos par Rubriques
+# À compléter avec vos vidéos YouTube/Vimeo
+
+rubriques:
+  - nom: "Introduction à la Sexualité Authentique"
+    description: "Comprendre les fondamentaux de l'approche"
+    videos:
+      - titre: "L'eau à 99° vs 100° : la métaphore qui change tout"
+        url: ""  # À compléter
+        duree: "5:30"
+        description: "Pourquoi l'authenticité à 100% n'est pas juste 'un peu mieux' que 99%"
+
+      - titre: "EPE vs RCS : deux paradigmes de la sexualité"
+        url: ""  # À compléter
+        duree: "8:15"
+        description: "Excitation-Pénétration-Éjaculation ou Relaxation-Connexion-Sublimation ?"
+
+  - nom: "Enlever la Peur"
+    description: "Le cœur du travail : libérer ce qui vous retient"
+    videos:
+      - titre: "Pourquoi 95% du travail c'est enlever la peur"
+        url: ""  # À compléter
+        duree: "7:00"
+        description: "Sans peur, il n'y a pas de problème. Vraiment."
+
+      - titre: "Le masque et le tigre : votre vraie nature sous la protection"
+        url: ""  # À compléter
+        duree: "6:45"
+        description: "Ce qui vous retient n'est pas un défaut, c'est une ancienne protection"
+
+  - nom: "Communication Authentique"
+    description: "Dire sa vérité sans violence, entendre l'autre sans se perdre"
+    videos:
+      - titre: "Comment parler de sexualité sans blesser votre partenaire"
+        url: ""  # À compléter
+        duree: "9:20"
+        description: "La communication authentique au service de l'intimité"
+
+  - nom: "Pour les Célibataires"
+    description: "Attirer l'amour vrai en étant 100% soi"
+    videos:
+      - titre: "Séduction vs Sélection : arrêtez de plaire, commencez à être"
+        url: ""  # À compléter
+        duree: "10:00"
+        description: "Pourquoi chercher à séduire vous éloigne de l'amour authentique"
+
+  - nom: "Témoignages"
+    description: "Ils et elles ont osé les 100%"
+    videos:
+      - titre: "Sophie : 'J'ai rencontré l'amour avant la fin des 12 semaines'"
+        url: ""  # À compléter
+        duree: "4:30"
+        description: "Témoignage d'une cliente après le parcours"
+
+# Note : Cette section sera enrichie au fur et à mesure
+# Pour l'instant, les URLs sont vides et seront complétées plus tard

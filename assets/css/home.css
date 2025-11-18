@@ -1,0 +1,459 @@
+/* ============================================
+   Page d'accueil - Styles spécifiques
+   ============================================ */
+
+/* Section Hero */
+.hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, rgba(198, 123, 92, 0.1) 0%, rgba(245, 235, 224, 0.3) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-3xl);
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: var(--font-size-4xl);
+  line-height: 1.2;
+  margin-bottom: var(--spacing-lg);
+  color: var(--gris-fonce);
+}
+
+.hero-text .subtitle {
+  font-size: var(--font-size-xl);
+  color: var(--gris-moyen);
+  font-weight: var(--font-weight-light);
+  margin-bottom: var(--spacing-2xl);
+  line-height: 1.5;
+}
+
+.hero-cta {
+  display: flex;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.hero-image {
+  position: relative;
+}
+
+.hero-image img {
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+
+@media (max-width: 1024px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-2xl);
+  }
+
+  .hero-text h1 {
+    font-size: var(--font-size-3xl);
+  }
+
+  .hero-text .subtitle {
+    font-size: var(--font-size-lg);
+  }
+}
+
+/* Section Métaphore */
+.metaphore {
+  background-color: var(--beige-chaud);
+}
+
+.metaphore-content {
+  max-width: var(--container-medium);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.metaphore h2 {
+  font-size: var(--font-size-2xl);
+  margin-bottom: var(--spacing-xl);
+  line-height: 1.4;
+}
+
+.metaphore-text {
+  font-size: var(--font-size-lg);
+  line-height: 1.8;
+  color: var(--gris-moyen);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.metaphore-text p {
+  margin-bottom: var(--spacing-lg);
+}
+
+.metaphore-highlight {
+  font-weight: var(--font-weight-semibold);
+  color: var(--gris-fonce);
+}
+
+/* Section Douleurs */
+.douleurs {
+  background-color: var(--blanc);
+}
+
+.douleurs-title {
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.douleurs-list {
+  max-width: var(--container-small);
+  margin: 0 auto var(--spacing-2xl);
+}
+
+.douleur-item {
+  padding: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+  border-left: 4px solid var(--bordeaux);
+  background-color: var(--blanc-casse);
+  border-radius: var(--radius-md);
+}
+
+.douleur-item .icon {
+  font-size: var(--font-size-xl);
+  margin-right: var(--spacing-md);
+}
+
+.douleur-text {
+  font-size: var(--font-size-lg);
+  color: var(--gris-fonce);
+  font-weight: var(--font-weight-medium);
+}
+
+.douleurs-footer {
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--gris-moyen);
+  max-width: var(--container-small);
+  margin: 0 auto;
+}
+
+/* Section Transformations */
+.transformations {
+  background: linear-gradient(135deg, rgba(198, 123, 92, 0.05) 0%, rgba(245, 235, 224, 0.2) 100%);
+}
+
+.transformations-title {
+  text-align: center;
+  margin-bottom: var(--spacing-3xl);
+}
+
+.transformations-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-xl);
+  max-width: var(--container-medium);
+  margin: 0 auto var(--spacing-2xl);
+}
+
+.transformation-card {
+  background-color: var(--blanc);
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+}
+
+.transformation-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.transformation-card .icon {
+  font-size: var(--font-size-3xl);
+  margin-bottom: var(--spacing-md);
+}
+
+.transformation-card h3 {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-md);
+  color: var(--bordeaux);
+}
+
+.transformation-card p {
+  color: var(--gris-moyen);
+  line-height: 1.7;
+}
+
+.transformations-cta {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .transformations-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Section Témoignages Express */
+.temoignages-express {
+  background-color: var(--blanc);
+}
+
+.temoignages-title {
+  text-align: center;
+  margin-bottom: var(--spacing-3xl);
+}
+
+.temoignages-carousel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.temoignage-mini {
+  background-color: var(--blanc-casse);
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-lg);
+  text-align: center;
+}
+
+.temoignage-quote {
+  font-size: var(--font-size-md);
+  font-style: italic;
+  color: var(--gris-fonce);
+  margin-bottom: var(--spacing-md);
+  line-height: 1.6;
+}
+
+.temoignage-quote::before {
+  content: '"';
+  font-size: var(--font-size-2xl);
+  color: var(--terracotta);
+  opacity: 0.5;
+}
+
+.temoignage-quote::after {
+  content: '"';
+  font-size: var(--font-size-2xl);
+  color: var(--terracotta);
+  opacity: 0.5;
+}
+
+.temoignage-author {
+  font-size: var(--font-size-sm);
+  color: var(--gris-moyen);
+  font-weight: var(--font-weight-medium);
+}
+
+.temoignages-link {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .temoignages-carousel {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+}
+
+/* Section Parcours */
+.parcours-home {
+  background-color: #E8EBE3; /* olive clair */
+}
+
+.parcours-title {
+  text-align: center;
+  margin-bottom: var(--spacing-3xl);
+}
+
+.etapes-grid {
+  max-width: var(--container-medium);
+  margin: 0 auto var(--spacing-2xl);
+}
+
+.etape {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+  padding: var(--spacing-lg);
+  background-color: var(--blanc);
+  border-radius: var(--radius-lg);
+}
+
+.etape-numero {
+  width: 60px;
+  height: 60px;
+  background-color: var(--bordeaux);
+  color: var(--blanc);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  flex-shrink: 0;
+}
+
+.etape-content h3 {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-sm);
+  color: var(--gris-fonce);
+}
+
+.etape-content p {
+  color: var(--gris-moyen);
+  line-height: 1.6;
+}
+
+.parcours-details {
+  max-width: var(--container-small);
+  margin: 0 auto var(--spacing-2xl);
+  padding: var(--spacing-xl);
+  background-color: var(--blanc-casse);
+  border-radius: var(--radius-lg);
+  text-align: center;
+}
+
+.parcours-details ul {
+  list-style: none;
+  margin-bottom: var(--spacing-lg);
+}
+
+.parcours-details li {
+  padding: var(--spacing-sm) 0;
+  font-size: var(--font-size-md);
+}
+
+.parcours-details li::before {
+  content: "✓ ";
+  color: var(--olive);
+  font-weight: var(--font-weight-bold);
+  margin-right: var(--spacing-sm);
+}
+
+.parcours-cta {
+  text-align: center;
+  margin-top: var(--spacing-xl);
+}
+
+@media (max-width: 768px) {
+  .etape {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .etape-numero {
+    margin: 0 auto var(--spacing-md);
+  }
+}
+
+/* Section Qui Suis-Je Express */
+.qui-suis-je-home {
+  background-color: var(--blanc);
+}
+
+.qui-suis-je-content {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: var(--spacing-3xl);
+  align-items: center;
+  max-width: var(--container-medium);
+  margin: 0 auto;
+}
+
+.qui-suis-je-image img {
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  filter: grayscale(100%);
+  transition: var(--transition);
+}
+
+.qui-suis-je-image img:hover {
+  filter: grayscale(0%);
+}
+
+.qui-suis-je-text h2 {
+  margin-bottom: var(--spacing-md);
+}
+
+.qui-suis-je-text h3 {
+  font-size: var(--font-size-md);
+  color: var(--terracotta);
+  font-weight: var(--font-weight-medium);
+  margin-bottom: var(--spacing-lg);
+}
+
+.qui-suis-je-text p {
+  color: var(--gris-moyen);
+  line-height: 1.7;
+  margin-bottom: var(--spacing-md);
+}
+
+@media (max-width: 768px) {
+  .qui-suis-je-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .qui-suis-je-image {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+/* Section CTA Final */
+.cta-final {
+  background-color: var(--bordeaux);
+  color: var(--blanc);
+  text-align: center;
+}
+
+.cta-final h2 {
+  color: var(--blanc);
+  font-size: var(--font-size-3xl);
+  margin-bottom: var(--spacing-md);
+}
+
+.cta-final p {
+  color: var(--blanc-casse);
+  font-size: var(--font-size-lg);
+  max-width: var(--container-small);
+  margin: 0 auto var(--spacing-xl);
+  line-height: 1.7;
+}
+
+.cta-final .btn {
+  background-color: var(--blanc);
+  color: var(--bordeaux);
+  font-size: var(--font-size-lg);
+  padding: var(--spacing-lg) var(--spacing-2xl);
+}
+
+.cta-final .btn:hover {
+  background-color: var(--beige-chaud);
+  color: var(--bordeaux);
+}
+
+/* Section Quiz Teaser */
+.quiz-teaser {
+  background: linear-gradient(135deg, rgba(198, 123, 92, 0.15) 0%, rgba(245, 235, 224, 0.4) 100%);
+  text-align: center;
+}
+
+.quiz-teaser h2 {
+  margin-bottom: var(--spacing-md);
+}
+
+.quiz-teaser p {
+  font-size: var(--font-size-lg);
+  color: var(--gris-moyen);
+  margin-bottom: var(--spacing-xl);
+}
+
+.quiz-teaser .btn {
+  font-size: var(--font-size-md);
+}

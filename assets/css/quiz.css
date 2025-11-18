@@ -1,0 +1,225 @@
+/* ============================================
+   Quiz "Amant·e Sensible" - Styles
+   ============================================ */
+
+.quiz-page {
+  padding: var(--spacing-3xl) 0;
+  background-color: var(--blanc-casse);
+  min-height: 80vh;
+}
+
+/* Header du quiz */
+.quiz-header {
+  text-align: center;
+  margin-bottom: var(--spacing-3xl);
+}
+
+.quiz-header h1 {
+  font-size: var(--font-size-3xl);
+  margin-bottom: var(--spacing-md);
+}
+
+.quiz-description {
+  font-size: var(--font-size-lg);
+  color: var(--gris-moyen);
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto var(--spacing-md);
+}
+
+.quiz-duree {
+  font-size: var(--font-size-sm);
+  color: var(--gris-moyen);
+}
+
+/* Barre de progression */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background-color: var(--gris-clair);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  margin-bottom: var(--spacing-3xl);
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--bordeaux), var(--terracotta));
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+/* Question card */
+.question-card {
+  background-color: var(--blanc);
+  padding: var(--spacing-3xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.question-number {
+  font-size: var(--font-size-sm);
+  color: var(--gris-moyen);
+  margin-bottom: var(--spacing-md);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.question-text {
+  font-size: var(--font-size-xl);
+  color: var(--gris-fonce);
+  margin-bottom: var(--spacing-2xl);
+  line-height: 1.4;
+}
+
+/* Réponses */
+.answers-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.answer-btn {
+  background-color: var(--blanc-casse);
+  border: 2px solid var(--gris-clair);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-base);
+  color: var(--gris-fonce);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-normal);
+  line-height: 1.6;
+}
+
+.answer-btn:hover {
+  border-color: var(--bordeaux);
+  background-color: var(--blanc);
+  transform: translateX(4px);
+}
+
+.answer-btn.selected {
+  background-color: var(--bordeaux);
+  border-color: var(--bordeaux);
+  color: var(--blanc);
+  transform: scale(0.98);
+}
+
+/* Résultats */
+.results-card {
+  background-color: var(--blanc);
+  padding: var(--spacing-3xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  text-align: center;
+}
+
+.profile-icon {
+  font-size: 5rem;
+  margin-bottom: var(--spacing-lg);
+}
+
+.profile-name {
+  font-size: var(--font-size-3xl);
+  color: var(--bordeaux);
+  margin-bottom: var(--spacing-md);
+}
+
+.profile-resume {
+  font-size: var(--font-size-lg);
+  color: var(--gris-moyen);
+  font-style: italic;
+  margin-bottom: var(--spacing-xl);
+  line-height: 1.6;
+}
+
+.score-display {
+  background-color: var(--beige-chaud);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.score-display p {
+  font-size: var(--font-size-lg);
+  color: var(--gris-fonce);
+  margin: 0;
+}
+
+.score-display strong {
+  color: var(--bordeaux);
+  font-size: var(--font-size-xl);
+}
+
+.profile-description {
+  text-align: left;
+  margin-bottom: var(--spacing-2xl);
+  color: var(--gris-fonce);
+  line-height: 1.7;
+}
+
+.profile-description h3 {
+  font-size: var(--font-size-lg);
+  color: var(--bordeaux);
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-md);
+}
+
+.profile-description ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.profile-description li {
+  padding-left: var(--spacing-lg);
+  margin-bottom: var(--spacing-sm);
+  position: relative;
+}
+
+.profile-description li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--terracotta);
+  font-weight: var(--font-weight-bold);
+}
+
+.results-cta {
+  margin-bottom: var(--spacing-xl);
+}
+
+.restart-quiz {
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--gris-clair);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .quiz-header h1 {
+    font-size: var(--font-size-2xl);
+  }
+
+  .question-card {
+    padding: var(--spacing-xl);
+  }
+
+  .question-text {
+    font-size: var(--font-size-lg);
+  }
+
+  .answer-btn {
+    padding: var(--spacing-md);
+    font-size: var(--font-size-sm);
+  }
+
+  .results-card {
+    padding: var(--spacing-xl);
+  }
+
+  .profile-name {
+    font-size: var(--font-size-2xl);
+  }
+}

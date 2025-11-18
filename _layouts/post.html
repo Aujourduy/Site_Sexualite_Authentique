@@ -1,0 +1,85 @@
+---
+layout: default
+---
+
+<article class="post">
+
+  <header class="post-header">
+    <div class="container container-small">
+      <nav class="breadcrumb" aria-label="Fil d'ariane">
+        <a href="/">Accueil</a>
+        <span class="separator">›</span>
+        <a href="/blog/">Blog</a>
+        <span class="separator">›</span>
+        <span class="current">{{ page.title }}</span>
+      </nav>
+
+      <h1 class="post-title">{{ page.title }}</h1>
+
+      {% if page.subtitle %}
+      <p class="post-subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+
+      <div class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          {{ page.date | date: "%-d %B %Y" }}
+        </time>
+        {% if page.reading_time %}
+        <span class="separator">•</span>
+        <span class="reading-time">{{ page.reading_time }} min de lecture</span>
+        {% endif %}
+        {% if page.categories %}
+        <span class="separator">•</span>
+        <span class="categories">
+          {% for category in page.categories %}
+            <a href="/blog/category/{{ category | slugify }}/">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+        </span>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+
+  <div class="post-content">
+    <div class="container container-small">
+      {{ content }}
+    </div>
+  </div>
+
+  <footer class="post-footer">
+    <div class="container container-small">
+
+      <!-- Partage social (optionnel, à ajouter plus tard) -->
+
+      <!-- Navigation entre articles -->
+      <nav class="post-navigation">
+        {% if page.previous.url %}
+        <div class="nav-previous">
+          <span class="nav-label">← Article précédent</span>
+          <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+        </div>
+        {% endif %}
+
+        {% if page.next.url %}
+        <div class="nav-next">
+          <span class="nav-label">Article suivant →</span>
+          <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+        </div>
+        {% endif %}
+      </nav>
+
+      <!-- CTA -->
+      <div class="post-cta">
+        <div class="cta-box">
+          <h3>Ces réflexions vous parlent ?</h3>
+          <p>Réservez votre séance diagnostic de 60 minutes pour explorer comment vivre à 100% d'authenticité.</p>
+          <a href="{{ site.data.config.cta_principal.url }}" class="btn btn-{{ site.data.config.cta_principal.couleur }}">
+            {{ site.data.config.cta_principal.texte }}
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+</article>
