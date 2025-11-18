@@ -1,0 +1,65 @@
+# Configuration Jekyll - sexualite-authentique.fr
+# Site settings
+title: "Sexualité Authentique"
+tagline: "L'amour à 100% n'existe que dans l'authenticité à 100%"
+description: "Accompagnement vers une relation amoureuse profonde et une sexualité authentique. Coaching par Duy Dang."
+url: "https://sexualite-authentique.fr"
+baseurl: ""
+
+# Author
+author:
+  name: "Duy Dang"
+  bio: "Coach en Relation Amoureuse & Sexualité Authentique"
+  email: "contact@sexualite-authentique.fr"
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:title/
+timezone: Europe/Paris
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Duy Dang"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - "Cahier des charges"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO
+lang: fr
+twitter:
+  card: summary_large_image
+social:
+  name: Duy Dang
+  links:
+    - https://www.facebook.com/duydang.sexualite
+
+# Analytics (à configurer plus tard)
+# google_analytics: UA-XXXXXXXXX-X

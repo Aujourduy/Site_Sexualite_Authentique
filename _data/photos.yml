@@ -1,0 +1,105 @@
+# Plan des Photos - Mix Noir & Blanc + Couleur
+# Style : Chaleureux, Profond, Épuré
+
+# Photos de Duy (portraits)
+portraits:
+  - nom: "portrait_principal"
+    fichier: "duy-portrait-nb.jpg"
+    style: "noir_blanc"
+    usage: "Page Qui Suis-Je, À Propos"
+    description: "Portrait professionnel N&B, regard direct, sobre"
+    placeholder: true  # À remplacer par vraie photo
+
+  - nom: "portrait_couleur"
+    fichier: "duy-portrait-couleur.jpg"
+    style: "couleur"
+    usage: "Page Accueil, Contact"
+    description: "Portrait en couleur, chaleureux"
+    placeholder: true
+
+# Photos de danse libre
+danse:
+  - nom: "danse_mouvement"
+    fichier: "danse-mouvement-couleur.jpg"
+    style: "couleur"
+    usage: "Page Accueil (Hero), Mon Approche"
+    description: "Photo de danse en mouvement, énergie, liberté d'être"
+    placeholder: true
+
+  - nom: "danse_contact_impro"
+    fichier: "danse-contact-nb.jpg"
+    style: "noir_blanc"
+    usage: "Page Mon Approche"
+    description: "Contact Impro, connexion, écoute"
+    placeholder: true
+
+# Photos d'ambiance (banques d'images)
+ambiance:
+  - nom: "nature_lumiere"
+    fichier: "nature-lumiere-couleur.jpg"
+    style: "couleur"
+    usage: "Sections métaphore, transformation"
+    description: "Nature, lumière douce, terracotta naturel (lever/coucher soleil)"
+    source: "Unsplash"
+    recherche: "warm sunset, nature, intimate light"
+
+  - nom: "eau_vapeur"
+    fichier: "eau-vapeur-nb.jpg"
+    style: "noir_blanc"
+    usage: "Métaphore 99° vs 100°"
+    description: "Eau, vapeur, transformation d'état"
+    source: "Unsplash"
+    recherche: "water vapor, steam, transformation"
+
+  - nom: "mains_connexion"
+    fichier: "mains-connexion-nb.jpg"
+    style: "noir_blanc"
+    usage: "Communication authentique, connexion"
+    description: "Mains qui se touchent, connexion humaine, douceur"
+    source: "Unsplash"
+    recherche: "hands touching, intimate connection, gentle"
+
+  - nom: "foret_profondeur"
+    fichier: "foret-profondeur-couleur.jpg"
+    style: "couleur"
+    usage: "Profondeur, cheminement intérieur"
+    description: "Forêt, profondeur, chemin, racines"
+    source: "Unsplash"
+    recherche: "forest path, deep roots, inner journey"
+
+  - nom: "lumiere_fenetre"
+    fichier: "lumiere-fenetre-nb.jpg"
+    style: "noir_blanc"
+    usage: "Révélation, clarté, transformation"
+    description: "Lumière naturelle, fenêtre, douceur, intimité"
+    source: "Unsplash"
+    recherche: "window light, intimate, soft natural light"
+
+# Photos pour le blog
+blog:
+  - nom: "header_blog_1"
+    fichier: "blog-header-1.jpg"
+    style: "couleur"
+    usage: "Headers d'articles de blog"
+    description: "Varié selon thème article (nature, connexion, liberté)"
+    source: "Unsplash"
+
+# Palette de couleurs pour cohérence visuelle
+palette:
+  terracotta: "#C67B5C"
+  bordeaux: "#8B3A3A"
+  olive: "#6B7C59"
+  beige_chaud: "#F5EBE0"
+  blanc_casse: "#FAF8F5"
+  gris_fonce: "#3A3A3A"
+
+# Style photographique général
+style_general:
+  ambiance: "Chaleureux, Profond, Épuré"
+  eviter: "Trop staged, trop parfait, trop froid"
+  privilegier: "Naturel, authentique, lumière douce, moments vrais"
+  ratio_nb_couleur: "60% N&B, 40% Couleur"
+
+# Note :
+# placeholder: true signifie que c'est une photo à remplacer
+# Utiliser des services comme Unsplash.com ou Pexels.com pour les photos d'ambiance

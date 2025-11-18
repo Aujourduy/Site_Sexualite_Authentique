@@ -1,0 +1,40 @@
+---
+layout: default
+title: "Quiz : Êtes-vous un·e Amant·e Sensible ?"
+custom_css: "quiz.css"
+custom_js: "quiz.js"
+body_class: "page-quiz"
+---
+
+<div class="quiz-page">
+  <div class="container container-small">
+
+    <!-- Header du quiz -->
+    <header class="quiz-header">
+      <h1>{{ site.data.quiz.quiz.titre }}</h1>
+      <p class="quiz-description">{{ site.data.quiz.quiz.description }}</p>
+      <p class="quiz-duree">⏱️ Durée estimée : {{ site.data.quiz.quiz.duree }}</p>
+    </header>
+
+    <!-- Barre de progression -->
+    <div id="progress-container" class="progress-container">
+      <div id="progress-bar" class="progress-bar"></div>
+    </div>
+
+    <!-- Container des questions -->
+    <div id="question-container" class="question-container">
+      <!-- Les questions seront injectées par JavaScript -->
+    </div>
+
+    <!-- Container des résultats (caché au début) -->
+    <div id="results-container" class="results-container" style="display: none;">
+      <!-- Les résultats seront injectés par JavaScript -->
+    </div>
+
+  </div>
+</div>
+
+<!-- Données du quiz en JSON -->
+<script>
+const quizData = {{ site.data.quiz | jsonify }};
+</script>

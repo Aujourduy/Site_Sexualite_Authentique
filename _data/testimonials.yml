@@ -1,0 +1,144 @@
+# Témoignages - Clientes du Parcours 12 Semaines
+
+temoignages:
+  - nom: "Sophie"
+    age: 38
+    profession: "Naturopathe"
+    situation: "Célibataire → En couple"
+    photo: "placeholder-femme-1.jpg"
+    citation_courte: "J'ai rencontré l'amoureux que je cherchais avant même la fin des 12 semaines."
+    temoignage_complet: |
+      Quand j'ai commencé le parcours, j'étais célibataire depuis 2 ans après une rupture douloureuse.
+      J'avais fait beaucoup de thérapie, de stages, mais quelque chose bloquait encore.
+
+      Avec Duy, j'ai compris que ce n'était pas un problème de technique ou de "savoir comment faire".
+      C'était juste de la peur. Peur d'être moi-même, peur de ne pas être assez, peur de perdre l'autre.
+
+      En enlevant cette peur, couche après couche, j'ai commencé à rayonner différemment.
+      Sans rien forcer, sans "chercher", j'ai rencontré quelqu'un à la 8ème semaine.
+
+      Mais le plus fou, c'est que cette fois, j'étais 100% moi-même dès le début.
+      Pas de masque. Pas de stratégie. Juste moi.
+
+      Et il est tombé amoureux de ça. De moi. Vraiment moi.
+    resultats:
+      - "Rencontre authentique pendant le parcours"
+      - "Relation basée sur l'authenticité totale"
+      - "Fin de la peur de perdre l'autre"
+    date: "2024-09"
+
+  - nom: "Marie"
+    age: 42
+    profession: "Psychologue"
+    situation: "En couple"
+    photo: "placeholder-femme-2.jpg"
+    citation_courte: "Je me suis surprise à devenir entreprenante et à initier le contact intime."
+    temoignage_complet: |
+      J'étais dans une relation depuis 7 ans. Confortable, mais... à 80%. Peut-être 85%.
+      Je me disais que c'était normal, que la passion diminue avec le temps.
+
+      Mais au fond de moi, je savais qu'il manquait quelque chose.
+      Je n'osais pas exprimer mes vrais désirs. J'avais honte de certaines envies.
+      J'attendais qu'il initie, qu'il devine, qu'il fasse le premier pas.
+
+      Le parcours a tout changé.
+
+      D'abord, j'ai compris que ce n'était pas mon couple qui avait un problème.
+      C'était MOI qui ne m'autorisais pas à être moi à 100%.
+
+      En enlevant cette honte, cette retenue, j'ai découvert une dimension de moi que j'ignorais.
+      Je suis devenue entreprenante. J'ai osé dire ce que je voulais, ce que je ne voulais pas.
+
+      Mon partenaire était... stupéfait. Et ravi.
+      Il attendait ça depuis des années sans oser me le dire.
+
+      Aujourd'hui, on est passé de 80% à... je dirais 95%. On vise les 100%.
+    resultats:
+      - "Libération de la honte sexuelle"
+      - "Communication authentique dans le couple"
+      - "Prise d'initiative retrouvée"
+    date: "2024-06"
+
+  - nom: "Laura"
+    age: 35
+    profession: "Enseignante"
+    situation: "Célibataire"
+    photo: "placeholder-femme-3.jpg"
+    citation_courte: "Je n'ai plus peur de dire non ou ce que je n'aime pas."
+    temoignage_complet: |
+      J'étais la gentille fille qui disait toujours oui.
+      Oui à des relations qui ne me nourrissaient pas.
+      Oui à des pratiques sexuelles qui ne me plaisaient pas vraiment.
+      Oui pour ne pas décevoir, pour ne pas perdre l'autre.
+
+      Résultat ? Je me perdais moi-même.
+
+      Le travail avec Duy a été radical.
+      Il m'a montré que dire non, c'est respecter l'autre autant que soi.
+      Parce qu'en disant oui quand c'est non, je mens. Et le mensonge tue l'amour.
+
+      J'ai appris à écouter mon corps. Vraiment écouter.
+      Quand c'est oui, c'est un oui vibrant. Quand c'est non, je le dis. Simplement.
+
+      Au début, j'avais peur de tout perdre.
+      En réalité, j'ai perdu les relations qui n'étaient pas vraies.
+      Et j'ai gagné MOI.
+
+      Aujourd'hui, je suis célibataire. Et je ne cherche plus.
+      Je sais que quand je rencontrerai quelqu'un, ce sera avec moi à 100%.
+      Ou rien.
+    resultats:
+      - "Capacité à dire non sans culpabilité"
+      - "Écoute profonde du corps et des sensations"
+      - "Fin des relations inauthentiques"
+    date: "2024-11"
+
+  - nom: "Isabelle"
+    age: 51
+    profession: "Coach en entreprise"
+    situation: "Célibataire → Séparée puis en paix"
+    photo: "placeholder-femme-4.jpg"
+    citation_courte: "J'ai découvert que ma sexualité pouvait être spirituelle, pas juste physique."
+    temoignage_complet: |
+      À 51 ans, après 20 ans de mariage et une séparation récente, je me sentais perdue.
+      J'avais peur de ne plus jamais vivre l'intimité. De ne plus être désirable.
+
+      Le parcours avec Duy m'a fait découvrir une autre dimension de la sexualité.
+      Pas la performance. Pas la séduction. La connexion à l'Être.
+
+      EPE vers RCS, comme il dit. Relaxation, connexion, sublimation.
+
+      J'ai découvert que je pouvais "faire l'amour" même seule, dans la méditation,
+      dans la danse, dans la connexion à mon corps.
+
+      Que la sexualité n'était pas un acte, mais un état d'être.
+
+      Aujourd'hui, je suis célibataire. Et je vis une sexualité plus riche que jamais.
+      Parce qu'elle n'attend plus rien de personne. Elle EST.
+
+      Si une rencontre arrive, elle sera le partage de deux êtres complets.
+      Pas la fusion de deux moitiés qui se cherchent.
+    resultats:
+      - "Découverte de la sexualité comme connexion spirituelle"
+      - "Libération de la peur de vieillir"
+      - "Sexualité autonome et complète"
+    date: "2024-03"
+
+# Statistiques (anonymes)
+statistiques:
+  total_clients: 20
+  femmes_pourcentage: 80
+  hommes_pourcentage: 20
+  age_moyen: 42
+  satisfaction: 95
+  recommandation: 100
+
+# Résultats fréquents (anonymisés)
+resultats_frequents:
+  - "Rencontre d'un partenaire authentique pendant ou après le parcours"
+  - "Transformation de la relation existante vers plus d'authenticité"
+  - "Libération de la honte et de la peur du rejet"
+  - "Communication authentique installée"
+  - "Passage du schéma EPE à RCS"
+  - "Reconnexion au corps et aux sensations"
+  - "Fin des schémas répétitifs"
