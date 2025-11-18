@@ -1,0 +1,20 @@
+{
+  "name": "Sexualité Authentique",
+  "short_name": "Sexualité Auth.",
+  "description": "Accompagnement vers une relation amoureuse profonde et une sexualité authentique",
+  "icons": [
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#8B3A3A",
+  "background_color": "#FAF8F5",
+  "display": "standalone"
+}

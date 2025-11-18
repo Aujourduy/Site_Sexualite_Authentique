@@ -223,6 +223,81 @@ Une fois les images en place :
 
 ---
 
+## 🎨 Favicon (icône du site)
+
+Le favicon est la petite icône qui apparaît dans l'onglet du navigateur et dans les favoris.
+
+### Configuration actuelle
+
+Le favicon est **configuré et activé** dans `_config.yml` :
+```yaml
+favicon:
+  enable: true
+  path: "/assets/images/favicon"
+```
+
+### Fichiers à créer
+
+Pour que le favicon fonctionne, vous devez créer les fichiers suivants dans `/assets/images/favicon/` :
+
+1. **favicon-16x16.png** - 16x16px (icône onglet petit)
+2. **favicon-32x32.png** - 32x32px (icône onglet normal)
+3. **apple-touch-icon.png** - 180x180px (icône iPhone/iPad)
+4. **android-chrome-192x192.png** - 192x192px (icône Android petit)
+5. **android-chrome-512x512.png** - 512x512px (icône Android grand)
+6. **site.webmanifest** - Déjà créé ✅
+
+### Comment créer vos favicons ?
+
+**Option 1 : Utiliser un générateur en ligne (recommandé)**
+1. Allez sur **https://realfavicongenerator.net/**
+2. Uploadez votre logo/symbole (idéalement 512x512px minimum)
+3. Personnalisez les couleurs si nécessaire :
+   - Theme color : `#8B3A3A` (bordeaux)
+   - Background color : `#FAF8F5` (blanc cassé)
+4. Téléchargez le pack complet
+5. Placez tous les fichiers dans `/assets/images/favicon/`
+
+**Option 2 : Créer manuellement avec un éditeur**
+1. Créez une image carrée de votre logo (512x512px)
+2. Utilisez Photoshop/GIMP/Figma pour redimensionner aux différentes tailles
+3. Exportez en PNG avec transparence
+
+### Design recommandé pour votre favicon
+
+Pour votre marque "Sexualité Authentique", voici quelques idées :
+
+**Option A : Initiales stylisées**
+- Les lettres "S" et "A" entrelacées
+- Couleur : bordeaux (#8B3A3A) sur fond beige (#F5EBE0)
+
+**Option B : Symbole abstrait**
+- Une forme organique rappelant la connexion/l'union
+- Couleurs terracotta et bordeaux
+
+**Option C : Simple et épuré**
+- Un point/cercle bordeaux symbolisant le 100%
+- Sur fond transparent ou beige
+
+### Checklist
+
+- [ ] Créer ou commander un design de favicon
+- [ ] Générer tous les formats avec realfavicongenerator.net
+- [ ] Placer les fichiers dans `/assets/images/favicon/`
+- [ ] Tester sur différents navigateurs (Chrome, Firefox, Safari)
+- [ ] Vérifier que l'icône apparaît bien dans l'onglet du navigateur
+
+### Note importante
+
+Le fichier `site.webmanifest` est déjà configuré avec :
+- Nom : "Sexualité Authentique"
+- Couleur thème : bordeaux (#8B3A3A)
+- Fond : blanc cassé (#FAF8F5)
+
+Vous n'avez **pas besoin** de modifier ce fichier.
+
+---
+
 ## ❓ Questions fréquentes
 
 **Q : Puis-je utiliser d'autres formats que JPG ?**

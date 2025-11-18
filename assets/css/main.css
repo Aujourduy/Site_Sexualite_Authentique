@@ -304,6 +304,9 @@ section {
   color: var(--gris-fonce);
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-sm);
+  transition: var(--transition);
+  padding: var(--spacing-xs) 0;
+  position: relative;
 }
 
 .nav-desktop a.active {
@@ -312,6 +315,7 @@ section {
 
 .nav-desktop a:hover:not(.btn) {
   color: var(--bordeaux);
+  text-shadow: 0 2px 4px rgba(139, 58, 58, 0.15);  /* Ombre légère sur le texte au hover */
 }
 
 /* Bouton CTA dans le header - meilleure lisibilité */

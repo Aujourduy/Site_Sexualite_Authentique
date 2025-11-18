@@ -63,3 +63,8 @@ social:
 
 # Analytics (à configurer plus tard)
 # google_analytics: UA-XXXXXXXXX-X
+
+# Favicon
+favicon:
+  enable: true
+  path: "/assets/images/favicon"  # Dossier contenant les favicons
