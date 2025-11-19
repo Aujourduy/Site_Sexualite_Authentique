@@ -1,0 +1,20 @@
+# Dossier de travail (captures d'écran, notes, etc.)
+workspace/
+
+# Site généré par Jekyll
+_site/
+
+# Fichiers système
+.DS_Store
+*~
+*.swp
+*.swo
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
