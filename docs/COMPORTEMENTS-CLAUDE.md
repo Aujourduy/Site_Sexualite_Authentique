@@ -37,25 +37,42 @@ Claude doit lire CE FICHIER + `docs/SUIVI.md` au DÉBUT de CHAQUE session, avant
    - Liste des changements en bullet points
    - Toujours ajouter la signature Claude Code
 
-### Exemple de workflow correct
+### Processus de vérification AVANT tout commit
 
+**AVANT de faire `git commit`, je dois TOUJOURS suivre ce processus :**
+
+1. **STOP** - Pause mentale
+2. **VÉRIFIER** - Est-ce que Duy a dit le mot "commit" dans son dernier message ?
+   - ✅ OUI → Continuer à l'étape 3
+   - ❌ NON → ARRÊTER, ne pas commit, juste informer que les changements sont prêts
+3. **COMMIT + PUSH** - Rédiger message, git add, git commit, git push
+4. **CONFIRMER** - Informer que c'est fait
+
+### Exemples de workflows corrects
+
+**Cas 1 : Duy dit "commit"**
 ```
+Duy: "Mets à jour le fichier X"
+Claude: [Modifie le fichier] "Fichier X mis à jour. Changements prêts."
 Duy: "commit"
-Claude:
-  - Rédige le message de commit
-  - git add ...
-  - git commit -m "..."
-  - git push origin main
-  - Confirme que c'est fait
+Claude: [Vérifie : "commit" présent ✓] [Commit + push] "✅ Commit 1234abc créé et pushé"
 ```
 
-### Exemple INCORRECT (ne plus faire)
+**Cas 2 : Duy ne dit pas "commit"**
+```
+Duy: "Mets à jour le fichier X"
+Claude: [Modifie le fichier] "Fichier X mis à jour. Changements prêts."
+[STOP - Pas de "commit" → N'exécute PAS git commit]
+```
+
+### Exemple INCORRECT (ne plus reproduire)
 
 ```
-Claude: "Dois-je faire un commit avec ce message : ..."  ❌
+Duy: "Mets à jour le cahier de comportement"
+Claude: [Modifie le fichier] [Fait git commit et push sans autorisation]  ❌ INTERDIT
 ```
 
-**Cette règle est NON-NÉGOCIABLE.**
+**Cette règle est NON-NÉGOCIABLE. Toujours vérifier la présence du mot "commit" avant d'exécuter git commit.**
 
 ---
 
