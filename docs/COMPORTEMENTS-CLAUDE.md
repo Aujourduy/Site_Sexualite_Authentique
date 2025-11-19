@@ -21,14 +21,16 @@ Claude doit lire CE FICHIER + `docs/SUIVI.md` au DÉBUT de CHAQUE session, avant
 
 ### Règles strictes
 
-1. **JAMAIS faire `git commit`** sans que Duy ait dit explicitement le mot **"commit"**
+1. **Le mot "commit" est OBLIGATOIRE**
+   - Si Duy ne dit PAS le mot "commit" → JAMAIS de commit
+   - Si Duy dit "commit" → Commit + push automatiquement
 
-2. **Quand Duy dit "commit" :**
-   - Rédiger un message de commit clair et descriptif (tu le fais très bien)
+2. **Quand Duy dit "commit" (et SEULEMENT quand il le dit) :**
+   - Rédiger un message de commit clair et descriptif
    - **NE PAS demander confirmation** du message
    - Faire le commit directement
    - **PUIS faire le push automatiquement** (`git push origin main`)
-   - "commit" = commit + push (toujours les deux)
+   - "commit" = commit + push (toujours les deux actions)
 
 3. **Format du message de commit :**
    - Titre court et descriptif
