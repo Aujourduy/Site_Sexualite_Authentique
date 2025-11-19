@@ -21,6 +21,7 @@
   {% if page.custom_css %}
     <link rel="stylesheet" href="{{ '/assets/css/' | append: page.custom_css | relative_url }}">
   {% endif %}
+  <link rel="stylesheet" href="{{ '/assets/css/responsive-fixes.css' | relative_url }}">
 
   <!-- Favicon -->
   {% if site.favicon.enable %}
@@ -33,17 +34,8 @@
   <!-- RSS Feed -->
   {% feed_meta %}
 
-  <!-- Analytics (à configurer plus tard) -->
-  {% if site.google_analytics %}
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', '{{ site.google_analytics }}');
-    </script>
-  {% endif %}
+  <!-- Analytics RGPD-friendly (Plausible + Clarity) -->
+  {% include analytics.html %}
 </head>
 <body class="{% if page.body_class %}{{ page.body_class }}{% endif %}">
 

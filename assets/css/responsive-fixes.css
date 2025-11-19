@@ -1,0 +1,78 @@
+/* ============================================
+   Corrections Responsive & Accessibilité
+   Priorité 1 - Quick Wins
+   ============================================ */
+
+/* 1. TITRES RESPONSIVE - Mobile */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: var(--font-size-2xl); /* 40px au lieu de 48px */
+    line-height: 1.2;
+  }
+
+  .hero-text .subtitle {
+    font-size: var(--font-size-md); /* 20px au lieu de 24px */
+  }
+
+  .page-title {
+    font-size: var(--font-size-2xl);
+  }
+
+  .post-title {
+    font-size: var(--font-size-2xl);
+  }
+
+  .cta-final h2 {
+    font-size: var(--font-size-2xl);
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: var(--font-size-xl); /* 32px pour petit mobile */
+  }
+
+  .hero-text .subtitle {
+    font-size: var(--font-size-base); /* 18px */
+  }
+}
+
+/* 2. GRIDS RESPONSIVE - Breakpoint intermédiaire tablette */
+@media (max-width: 1024px) and (min-width: 641px) {
+  .temoignages-carousel {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .temoignages-carousel {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 3. HERO HEIGHT - Mobile (réduction pour mieux utiliser l'espace) */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+/* 4. FOCUS STATES - Accessibilité navigation clavier */
+a:focus-visible,
+button:focus-visible,
+.btn:focus-visible {
+  outline: 2px solid var(--bordeaux);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* Boutons spécifiques */
+.menu-toggle:focus-visible {
+  outline: 2px solid var(--bordeaux);
+  outline-offset: 4px;
+}
+
+/* 5. BOUTONS - Font weight pour meilleure lisibilité */
+.btn {
+  font-weight: var(--font-weight-semibold);
+}
