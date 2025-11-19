@@ -6,10 +6,10 @@
       <div class="footer-col">
         <h3>Navigation</h3>
         <ul>
-          <li><a href="/">Accueil</a></li>
-          <li><a href="/mon-approche/">Mon Approche</a></li>
-          <li><a href="/parcours-12-semaines/">Le Parcours</a></li>
-          <li><a href="/qui-suis-je/">Qui Suis-Je</a></li>
+          <li><a href="{{ '/' | relative_url }}">Accueil</a></li>
+          <li><a href="{{ '/mon-approche/' | relative_url }}">Mon Approche</a></li>
+          <li><a href="{{ '/parcours-12-semaines/' | relative_url }}">Le Parcours</a></li>
+          <li><a href="{{ '/qui-suis-je/' | relative_url }}">Qui Suis-Je</a></li>
         </ul>
       </div>
 
@@ -17,10 +17,10 @@
       <div class="footer-col">
         <h3>Ressources</h3>
         <ul>
-          <li><a href="/blog/">Blog</a></li>
-          <li><a href="/videos/">Vidéos</a></li>
-          <li><a href="/quiz-amant-sensible/">Quiz Amant Sensible</a></li>
-          <li><a href="/faq/">FAQ</a></li>
+          <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+          <li><a href="{{ '/videos/' | relative_url }}">Vidéos</a></li>
+          <li><a href="{{ '/quiz-amant-sensible/' | relative_url }}">Quiz Amant Sensible</a></li>
+          <li><a href="{{ '/faq/' | relative_url }}">FAQ</a></li>
         </ul>
       </div>
 
@@ -28,8 +28,8 @@
       <div class="footer-col">
         <h3>Contact</h3>
         <ul>
-          <li><a href="/seance-diagnostic/">Séance Diagnostic</a></li>
-          <li><a href="/contact/">Contact</a></li>
+          <li><a href="{{ '/seance-diagnostic/' | relative_url }}">Séance Diagnostic</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
           <li><a href="mailto:{{ site.data.config.contact.email }}">{{ site.data.config.contact.email }}</a></li>
         </ul>
 
@@ -48,9 +48,9 @@
       <div class="footer-col">
         <h3>Légal</h3>
         <ul>
-          <li><a href="/mentions-legales/">Mentions Légales</a></li>
-          <li><a href="/politique-confidentialite/">Politique de Confidentialité</a></li>
-          <li><a href="/cgv/">CGV</a></li>
+          <li><a href="{{ '/mentions-legales/' | relative_url }}">Mentions Légales</a></li>
+          <li><a href="{{ '/politique-confidentialite/' | relative_url }}">Politique de Confidentialité</a></li>
+          <li><a href="{{ '/cgv/' | relative_url }}">CGV</a></li>
         </ul>
       </div>
 

@@ -16,10 +16,10 @@ body_class: "page-home"
           mais d'oser être pleinement vous-même ?
         </p>
         <div class="hero-cta">
-          <a href="{{ site.data.config.cta_principal.url }}" class="btn btn-bordeaux btn-large">
+          <a href="{{ site.data.config.cta_principal.url | relative_url }}" class="btn btn-bordeaux btn-large">
             {{ site.data.config.cta_principal.texte }}
           </a>
-          <a href="/mon-approche/" class="btn btn-outline btn-large">
+          <a href="{{ '/mon-approche/' | relative_url }}" class="btn btn-outline btn-large">
             Découvrir mon approche →
           </a>
         </div>
@@ -27,8 +27,7 @@ body_class: "page-home"
       <div class="hero-image">
         <!-- Photo de danse en mouvement (placeholder) -->
         <img src="https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=600&h=700&fit=crop&auto=format&q=80"
-             alt="Danse libre - Liberté d'être"
-             loading="lazy">
+             alt="Danse libre - Liberté d'être">
       </div>
     </div>
   </div>
@@ -68,7 +67,7 @@ body_class: "page-home"
           </strong>
         </p>
       </div>
-      <a href="/mon-approche/" class="btn btn-bordeaux">
+      <a href="{{ '/mon-approche/' | relative_url }}" class="btn btn-bordeaux">
         Je veux découvrir ce que ça change
       </a>
     </div>
@@ -120,7 +119,7 @@ body_class: "page-home"
     </div>
 
     <div class="transformations-cta">
-      <a href="/parcours-12-semaines/" class="btn btn-bordeaux btn-large">
+      <a href="{{ '/parcours-12-semaines/' | relative_url }}" class="btn btn-bordeaux btn-large">
         Comment j'y arrive ?
       </a>
     </div>
@@ -142,7 +141,7 @@ body_class: "page-home"
     </div>
 
     <div class="temoignages-link">
-      <a href="/temoignages/">Lire tous les témoignages →</a>
+      <a href="{{ '/temoignages/' | relative_url }}">Lire tous les témoignages →</a>
     </div>
   </div>
 </section>
@@ -175,11 +174,11 @@ body_class: "page-home"
     </div>
 
     <div class="parcours-cta">
-      <a href="{{ site.data.config.cta_principal.url }}" class="btn btn-bordeaux btn-large">
+      <a href="{{ site.data.config.cta_principal.url | relative_url }}" class="btn btn-bordeaux btn-large">
         {{ site.data.config.cta_principal.texte }}
       </a>
       <br><br>
-      <a href="/parcours-12-semaines/">Découvrir le parcours en détail →</a>
+      <a href="{{ '/parcours-12-semaines/' | relative_url }}">Découvrir le parcours en détail →</a>
     </div>
   </div>
 </section>
@@ -212,7 +211,7 @@ body_class: "page-home"
           j'ai mis des années à comprendre : <strong>l'amour vrai ne commence qu'à 100%
           d'authenticité.</strong>
         </p>
-        <a href="/qui-suis-je/">Découvrir mon parcours complet →</a>
+        <a href="{{ '/qui-suis-je/' | relative_url }}">Découvrir mon parcours complet →</a>
       </div>
     </div>
   </div>
@@ -230,7 +229,7 @@ body_class: "page-home"
       On clarifie ensemble où vous en êtes et si le passage à 100%
       est fait pour vous maintenant.
     </p>
-    <a href="{{ site.data.config.cta_principal.url }}" class="btn btn-large">
+    <a href="{{ site.data.config.cta_principal.url | relative_url }}" class="btn btn-large">
       {{ site.data.config.cta_principal.texte }}
     </a>
   </div>
@@ -244,7 +243,7 @@ body_class: "page-home"
       Découvrez votre profil en 20 questions.<br>
       Test gratuit, résultat immédiat.
     </p>
-    <a href="/quiz-amant-sensible/" class="btn btn-bordeaux btn-large">
+    <a href="{{ '/quiz-amant-sensible/' | relative_url }}" class="btn btn-bordeaux btn-large">
       Faire le test (2 minutes) →
     </a>
   </div>

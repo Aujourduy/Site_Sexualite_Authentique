@@ -2,7 +2,7 @@
   <div class="container">
     <div class="header-content">
       <div class="logo">
-        <a href="/">
+        <a href="{{ '/' | relative_url }}">
           <h1 class="site-title">Sexualité Authentique</h1>
           <p class="site-tagline">{{ site.tagline }}</p>
         </a>
@@ -11,12 +11,12 @@
       <!-- Navigation Desktop -->
       <nav class="nav-desktop">
         {% for item in site.data.config.navigation %}
-          <a href="{{ item.url }}" {% if page.url == item.url %}class="active"{% endif %}>
+          <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active"{% endif %}>
             {{ item.nom }}
           </a>
         {% endfor %}
 
-        <a href="{{ site.data.config.cta_principal.url }}" class="btn btn-{{ site.data.config.cta_principal.couleur }} cta-header">
+        <a href="{{ site.data.config.cta_principal.url | relative_url }}" class="btn btn-{{ site.data.config.cta_principal.couleur }} cta-header">
           {{ site.data.config.cta_principal.texte }}
         </a>
       </nav>
@@ -32,12 +32,12 @@
     <!-- Navigation Mobile -->
     <nav class="nav-mobile" id="navMobile">
       {% for item in site.data.config.navigation %}
-        <a href="{{ item.url }}" {% if page.url == item.url %}class="active"{% endif %}>
+        <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}class="active"{% endif %}>
           {{ item.nom }}
         </a>
       {% endfor %}
 
-      <a href="{{ site.data.config.cta_principal.url }}" class="btn btn-{{ site.data.config.cta_principal.couleur }}">
+      <a href="{{ site.data.config.cta_principal.url | relative_url }}" class="btn btn-{{ site.data.config.cta_principal.couleur }}">
         {{ site.data.config.cta_principal.texte }}
       </a>
     </nav>

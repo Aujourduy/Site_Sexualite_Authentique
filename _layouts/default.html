@@ -22,8 +22,13 @@
     <link rel="stylesheet" href="{{ '/assets/css/' | append: page.custom_css | relative_url }}">
   {% endif %}
 
-  <!-- Favicon (à ajouter plus tard) -->
-  <!-- <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}"> -->
+  <!-- Favicon -->
+  {% if site.favicon.enable %}
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.favicon.path | append: '/favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.favicon.path | append: '/favicon-16x16.png' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.favicon.path | append: '/apple-touch-icon.png' | relative_url }}">
+  <link rel="manifest" href="{{ site.favicon.path | append: '/site.webmanifest' | relative_url }}">
+  {% endif %}
 
   <!-- RSS Feed -->
   {% feed_meta %}

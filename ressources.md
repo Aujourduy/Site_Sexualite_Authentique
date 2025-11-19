@@ -51,7 +51,7 @@ Découvrez votre profil en **20 questions** (2 minutes).
 
 Test gratuit, résultat immédiat avec recommandations personnalisées.
 
-**[Faire le quiz →](/quiz-amant-sensible/)**
+**[Faire le quiz →]({{ '/quiz-amant-sensible/' | relative_url }})**
 
 ---
 
@@ -65,7 +65,7 @@ Accédez gratuitement à une bibliothèque de vidéos courtes sur différents th
 - Conseils pour les célibataires
 - Témoignages
 
-**[Voir toutes les vidéos →](/videos/)**
+**[Voir toutes les vidéos →]({{ '/videos/' | relative_url }})**
 
 ---
 
@@ -80,7 +80,7 @@ Des réflexions profondes sur la relation amoureuse et la sexualité authentique
 - EPE vs RCS : deux paradigmes de la sexualité
 - Séduction vs Sélection : arrêtez de plaire, commencez à être
 
-**[Lire le blog →](/blog/)**
+**[Lire le blog →]({{ '/blog/' | relative_url }})**
 
 ---
 
@@ -90,13 +90,13 @@ Des réflexions profondes sur la relation amoureuse et la sexualité authentique
 
 Si vous voulez clarifier où vous en êtes et voir si le passage à 100% d'authenticité est fait pour vous maintenant.
 
-**[Réserver ma séance offerte →](/seance-diagnostic/)**
+**[Réserver ma séance offerte →]({{ '/seance-diagnostic/' | relative_url }})**
 
 ### Le Parcours 12 Semaines
 
 Si vous êtes prête à passer de 99% à 100% d'authenticité, le Parcours de Libération est fait pour vous.
 
-**[Découvrir le parcours →](/parcours-12-semaines/)**
+**[Découvrir le parcours →]({{ '/parcours-12-semaines/' | relative_url }})**
 
 ---
 
@@ -110,4 +110,4 @@ Recevez chaque semaine une réflexion profonde sur la sexualité authentique, in
 
 ## Questions ?
 
-Consultez la [FAQ](/faq/) ou [contactez-moi directement](/contact/).
+Consultez la [FAQ]({{ '/faq/' | relative_url }}) ou [contactez-moi directement]({{ '/contact/' | relative_url }}).

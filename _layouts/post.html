@@ -7,9 +7,9 @@ layout: default
   <header class="post-header">
     <div class="container container-small">
       <nav class="breadcrumb" aria-label="Fil d'ariane">
-        <a href="/">Accueil</a>
+        <a href="{{ '/' | relative_url }}">Accueil</a>
         <span class="separator">›</span>
-        <a href="/blog/">Blog</a>
+        <a href="{{ '/blog/' | relative_url }}">Blog</a>
         <span class="separator">›</span>
         <span class="current">{{ page.title }}</span>
       </nav>
@@ -32,7 +32,7 @@ layout: default
         <span class="separator">•</span>
         <span class="categories">
           {% for category in page.categories %}
-            <a href="/blog/category/{{ category | slugify }}/">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+            <a href="{{ '/blog/category/' | append: category | slugify | append: '/' | relative_url }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
           {% endfor %}
         </span>
         {% endif %}
@@ -56,14 +56,14 @@ layout: default
         {% if page.previous.url %}
         <div class="nav-previous">
           <span class="nav-label">← Article précédent</span>
-          <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+          <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
         </div>
         {% endif %}
 
         {% if page.next.url %}
         <div class="nav-next">
           <span class="nav-label">Article suivant →</span>
-          <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+          <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
         </div>
         {% endif %}
       </nav>
@@ -73,7 +73,7 @@ layout: default
         <div class="cta-box">
           <h3>Ces réflexions vous parlent ?</h3>
           <p>Réservez votre séance diagnostic de 60 minutes pour explorer comment vivre à 100% d'authenticité.</p>
-          <a href="{{ site.data.config.cta_principal.url }}" class="btn btn-{{ site.data.config.cta_principal.couleur }}">
+          <a href="{{ site.data.config.cta_principal.url | relative_url }}" class="btn btn-{{ site.data.config.cta_principal.couleur }}">
             {{ site.data.config.cta_principal.texte }}
           </a>
         </div>

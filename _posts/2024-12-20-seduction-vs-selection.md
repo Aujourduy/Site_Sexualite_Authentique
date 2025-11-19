@@ -215,4 +215,4 @@ Ce simple changement de perspective transforme tout.
 
 ---
 
-*Si vous voulez apprendre à pratiquer la sélection et attirer l'amour vrai, le [Parcours de 12 Semaines](/parcours-12-semaines/) est fait pour vous. Ou commencez par une [Séance Diagnostic offerte](/seance-diagnostic/) pour clarifier où vous en êtes.*
+*Si vous voulez apprendre à pratiquer la sélection et attirer l'amour vrai, le [Parcours de 12 Semaines]({{ '/parcours-12-semaines/' | relative_url }}) est fait pour vous. Ou commencez par une [Séance Diagnostic offerte]({{ '/seance-diagnostic/' | relative_url }}) pour clarifier où vous en êtes.*

@@ -42,7 +42,7 @@ Si vous voulez clarifier où vous en êtes et voir si le passage à 100% d'authe
 
 ## FAQ
 
-Avant de me contacter, vous trouverez peut-être votre réponse dans la [FAQ](/faq/).
+Avant de me contacter, vous trouverez peut-être votre réponse dans la [FAQ]({{ '/faq/' | relative_url }}).
 
 ---
 

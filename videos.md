@@ -36,19 +36,19 @@ permalink: /videos/
 
 Accédez au **Mémo PDF** et à la **Formation Vidéo "Enlever la Peur"** (9 vidéos).
 
-**[Voir les ressources gratuites →](/ressources/)**
+**[Voir les ressources gratuites →]({{ '/ressources/' | relative_url }})**
 
 ### Séance Diagnostic Offerte
 
 Pour clarifier où vous en êtes et voir si le passage à 100% est fait pour vous.
 
-**[Réserver ma séance offerte →](/seance-diagnostic/)**
+**[Réserver ma séance offerte →]({{ '/seance-diagnostic/' | relative_url }})**
 
 ### Le Parcours 12 Semaines
 
 L'accompagnement complet pour vivre à 100% d'authenticité.
 
-**[Découvrir le parcours →](/parcours-12-semaines/)**
+**[Découvrir le parcours →]({{ '/parcours-12-semaines/' | relative_url }})**
 
 ---
 

@@ -23,6 +23,6 @@ permalink: /faq/
 
 ## Vous ne trouvez pas la réponse à votre question ?
 
-N'hésitez pas à [me contacter directement](/contact/). Je réponds personnellement à tous les messages.
+N'hésitez pas à [me contacter directement]({{ '/contact/' | relative_url }}). Je réponds personnellement à tous les messages.
 
-Ou réservez directement une [Séance Diagnostic Offerte](/seance-diagnostic/) pour clarifier votre situation en 60 minutes de visio.
+Ou réservez directement une [Séance Diagnostic Offerte]({{ '/seance-diagnostic/' | relative_url }}) pour clarifier votre situation en 60 minutes de visio.

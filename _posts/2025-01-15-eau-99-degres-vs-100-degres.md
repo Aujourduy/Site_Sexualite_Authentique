@@ -121,7 +121,7 @@ Il demande :
 - **De la clarté** : comprendre d'où viennent vos blocages
 - **De l'accompagnement** : quelqu'un qui a déjà fait ce chemin et peut vous guider
 
-C'est ce que je fais dans le [Parcours de 12 Semaines](/parcours-12-semaines/).
+C'est ce que je fais dans le [Parcours de 12 Semaines]({{ '/parcours-12-semaines/' | relative_url }}).
 
 Pas juste "améliorer" votre sexualité.
 
@@ -147,4 +147,4 @@ Parce que ce "quelque chose" qui vous retient, c'est exactement ce sur quoi on p
 
 ---
 
-*Si vous voulez clarifier où vous en êtes et voir si le passage à 100% est fait pour vous maintenant, réservez une [Séance Diagnostic de 60 minutes (offerte)](/seance-diagnostic/).*
+*Si vous voulez clarifier où vous en êtes et voir si le passage à 100% est fait pour vous maintenant, réservez une [Séance Diagnostic de 60 minutes (offerte)]({{ '/seance-diagnostic/' | relative_url }}).*
