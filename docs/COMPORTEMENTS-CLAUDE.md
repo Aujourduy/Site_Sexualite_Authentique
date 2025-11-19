@@ -22,24 +22,35 @@ Claude doit lire CE FICHIER + `docs/SUIVI.md` au DÉBUT de CHAQUE session, avant
 ### Règles strictes
 
 1. **JAMAIS faire `git commit`** sans que Duy ait dit explicitement le mot **"commit"**
-2. **Quand tu demandes l'autorisation de faire un commit :**
-   - Pose UNE SEULE question dédiée uniquement au commit
-   - Ne mélange PAS cette question avec d'autres sujets
-   - Format : "Dois-je faire un commit avec ce message : [message proposé] ?"
-3. **Attends la réponse** avant de commiter
 
-### Exemple correct
+2. **Quand Duy dit "commit" :**
+   - Rédiger un message de commit clair et descriptif (tu le fais très bien)
+   - **NE PAS demander confirmation** du message
+   - Faire le commit directement
+   - **PUIS faire le push automatiquement** (`git push origin main`)
+   - "commit" = commit + push (toujours les deux)
+
+3. **Format du message de commit :**
+   - Titre court et descriptif
+   - Liste des changements en bullet points
+   - Toujours ajouter la signature Claude Code
+
+### Exemple de workflow correct
 
 ```
-Dois-je faire un commit avec ce message :
-"Ajout du fichier COMPORTEMENTS-CLAUDE.md" ?
+Duy: "commit"
+Claude:
+  - Rédige le message de commit
+  - git add ...
+  - git commit -m "..."
+  - git push origin main
+  - Confirme que c'est fait
 ```
 
-### Exemple INCORRECT (ne pas faire)
+### Exemple INCORRECT (ne plus faire)
 
 ```
-J'ai créé le fichier. Dois-je faire un commit ?
-Aussi, veux-tu que je modifie autre chose ?
+Claude: "Dois-je faire un commit avec ce message : ..."  ❌
 ```
 
 **Cette règle est NON-NÉGOCIABLE.**
@@ -173,13 +184,11 @@ Qu'en penses-tu ?"
 
 ### Ce que je veux que tu me DEMANDES avant de faire
 
-1. **Faire un commit Git** (voir règle absolue ci-dessus)
-2. **Pusher vers GitHub**
-3. **Supprimer des fichiers** ou du contenu existant
-4. **Fusionner des branches** Git
-5. **Modifier l'architecture** du projet
-6. **Changer des URLs** ou des chemins importants
-7. **Modifier le design** (couleurs, typo, layout)
+1. **Supprimer des fichiers** ou du contenu existant (sauf si je l'ai explicitement demandé)
+2. **Fusionner des branches** Git
+3. **Modifier l'architecture** du projet
+4. **Changer des URLs** ou des chemins importants
+5. **Modifier le design** (couleurs, typo, layout)
 
 ---
 
@@ -205,8 +214,7 @@ Qu'en penses-tu ?"
 
 ### Ne JAMAIS faire sans mon accord explicite
 
-- ❌ **Faire un commit Git** (tu dois demander à chaque fois)
-- ❌ **Pusher vers GitHub** (tu dois demander à chaque fois)
+- ❌ **Faire un commit Git** sans que je dise le mot "commit"
 - ❌ Supprimer le dossier `Cahier des charges/`
 - ❌ Modifier les fichiers yml de données sans raison
 - ❌ Changer les URLs des pages principales
