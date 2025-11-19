@@ -40,4 +40,30 @@
     });
   }
 
+  // Menu mobile toggle
+  const menuToggle = document.getElementById('menuToggle');
+  const navMobile = document.getElementById('navMobile');
+
+  if (menuToggle && navMobile) {
+    menuToggle.addEventListener('click', function() {
+      const isExpanded = this.getAttribute('aria-expanded') === 'true';
+
+      // Toggle aria-expanded
+      this.setAttribute('aria-expanded', !isExpanded);
+
+      // Toggle classes
+      this.classList.toggle('active');
+      navMobile.classList.toggle('active');
+    });
+
+    // Fermer le menu quand on clique sur un lien
+    navMobile.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', function() {
+        menuToggle.classList.remove('active');
+        navMobile.classList.remove('active');
+        menuToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  }
+
 })();

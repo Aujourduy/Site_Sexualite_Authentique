@@ -155,17 +155,20 @@ Vous pratiquez une **activité artistique régulière** (danse, chant, poterie, 
 
 ## La différence avec...
 
-### Une sexologue classique ?
+| | **Sexologue classique** | **Coach Tantra** | **Moi (Sexualité Authentique)** |
+|---|---|---|---|
+| **Objectif** | Améliorer, résoudre problèmes | Techniques, rituels | **100% authenticité** |
+| **Focus** | Couple | Couple | **Individu d'abord** |
+| **Approche** | Médicale, thérapeutique | Postures, exercices | **Enlever la peur** |
+| **Durée** | Séances ponctuelles | Stages week-end | **12 semaines** |
+| **Philosophie** | Psychologie, sexologie | Tantra traditionnel | **Shivaïsme + Danse + Communication** |
+| **Résultat** | "Mieux" | Intensité | **Changement de nature** |
 
-Les sexologues visent à "améliorer". Je vise les 100% - un objectif radical, mesurable, transformateur.
+### En résumé
 
-### Un coach tantra ?
-
-Je ne m'inscris pas dans une tradition tantrique spécifique. Mon approche est nourrie par la danse, le Shivaïsme du Cachemire, et mon expérience personnelle.
-
-### Une thérapeute de couple ?
-
-Je ne cherche pas à sauver le couple. Je cherche à libérer l'individu. Si le couple suit, tant mieux. Sinon, vous aurez gagné VOUS.
+**Sexologue classique** : "Voici comment améliorer votre sexualité"
+**Coach Tantra** : "Voici les techniques pour plus d'intensité"
+**Moi** : "Enlevons la peur. Le reste viendra naturellement."
 
 ---
 

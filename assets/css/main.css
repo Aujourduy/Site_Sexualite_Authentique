@@ -32,13 +32,13 @@
   /* Tailles de police */
   --font-size-xs: 0.875rem;    /* 14px */
   --font-size-sm: 1rem;         /* 16px */
-  --font-size-base: 1.125rem;   /* 18px */
-  --font-size-md: 1.25rem;      /* 20px */
-  --font-size-lg: 1.5rem;       /* 24px */
-  --font-size-xl: 2rem;         /* 32px */
-  --font-size-2xl: 2.5rem;      /* 40px */
-  --font-size-3xl: 3rem;        /* 48px */
-  --font-size-4xl: 3.5rem;      /* 56px */
+  --font-size-base: 1.375rem;   /* 22px - TEXTE AUGMENTÉ */
+  --font-size-md: 1.5rem;       /* 24px */
+  --font-size-lg: 1.625rem;     /* 26px */
+  --font-size-xl: 1.75rem;      /* 28px - H3 DIMINUÉ */
+  --font-size-2xl: 1.875rem;    /* 30px - H2 DIMINUÉ */
+  --font-size-3xl: 2rem;        /* 32px - H1 DIMINUÉ */
+  --font-size-4xl: 2.5rem;      /* 40px */
 
   /* Espacement */
   --spacing-xs: 0.5rem;   /* 8px */
@@ -297,7 +297,7 @@ section {
 .nav-desktop {
   display: flex;
   align-items: center;
-  gap: var(--spacing-lg);
+  gap: var(--spacing-md);
 }
 
 .nav-desktop a {
@@ -308,11 +308,11 @@ section {
   padding: var(--spacing-xs) var(--spacing-sm);  /* Padding horizontal pour l'effet background */
   border-radius: var(--radius-sm);
   position: relative;
+  white-space: nowrap;
 }
 
 .nav-desktop a.active {
   color: var(--bordeaux);
-  background-color: rgba(245, 235, 224, 0.5);  /* Beige très léger pour l'item actif */
 }
 
 .nav-desktop a:hover:not(.btn) {

@@ -83,14 +83,32 @@ C'est un **accompagnement vivant**, pas un programme rigide.
 
 Ce parcours représente :
 
-- 12 séances de 90 minutes (18 heures d'accompagnement)
-- Suivi illimité entre les séances pendant 12 semaines
-- 20 ans d'expérience (danse, communication, spiritualité)
+- **18 heures d'accompagnement personnalisé** (12 séances de 90 minutes)
+- **Suivi illimité** entre les séances (email/WhatsApp) pendant 12 semaines
+- **20 ans d'expérience** : 17 ans de danse libre, 13 ans de Shivaïsme du Cachemire, 10 ans de formation en communication
+- **90% de taux de satisfaction** (20 femmes accompagnées)
 - Une transformation qui changera le reste de votre vie
+
+**Pour mettre en perspective :**
+
+Une thérapie classique = 80€/h × 50 séances = 4000€ (souvent plus)
+Le Parcours = 133€/h × 18h = 2400€ (avec suivi illimité inclus)
 
 Si vous hésitez, posez-vous cette question :
 
 **Combien vaut pour vous la capacité de vivre votre vie intime à 100% d'authenticité ?**
+
+### Garantie Satisfait ou Remboursé
+
+Vous pouvez tester les 2 premières séances du parcours.
+
+Si après la 2ème séance (soit 2 semaines), vous estimez que ce n'est pas fait pour vous, je vous rembourse intégralement.
+
+Pas de justification nécessaire. Pas de questions.
+
+**Pourquoi cette garantie ?**
+
+Parce que je ne veux travailler qu'avec des femmes pour qui le passage à 100% résonne profondément. Si ce n'est pas le cas, on ne perd pas notre temps ni le vôtre.
 
 ---
 

@@ -148,6 +148,14 @@ Il n'y a pas de pression. Prenez le temps de réfléchir. Certaines personnes d�
 
 Je ne fais pas de relance commerciale. Si vous voulez démarrer le parcours, c'est vous qui me recontactez.
 
+**Vais-je être obligée de m'inscrire au parcours ?**
+
+Non. La séance sert à voir SI le parcours est fait pour vous. Si ce n'est pas le cas, je vous le dirai clairement. Mon objectif n'est pas de vous convaincre mais de clarifier si c'est le bon chemin pour vous maintenant.
+
+**Comment se passe concrètement la séance (Zoom, Teams, téléphone) ?**
+
+Par défaut, on se connecte sur Zoom. Mais si vous préférez Google Meet, Teams ou un autre outil, aucun problème. On s'adapte à ce qui vous convient le mieux.
+
 ---
 
 ## Prêt·e à réserver ?

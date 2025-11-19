@@ -1,0 +1,225 @@
+# Éléments à compléter plus tard
+# Ce fichier contient tous les contenus temporaires/factices qui devront être remplacés par les vrais
+
+## Témoignages
+# Actuellement : témoignages inventés pour la structure
+# À faire : Remplacer par vrais témoignages avec autorisations
+temoignages:
+  statut: "TEMPORAIRE - À remplacer"
+  action_requise: |
+    1. Contacter les clientes pour obtenir témoignages détaillés
+    2. Demander autorisation d'utiliser prénom + âge + métier
+    3. Obtenir contexte Avant/Après concret
+    4. Demander permission pour citation longue (3-4 phrases)
+    5. Optionnel : photo floue ou silhouette si elles acceptent
+
+  structure_ideale: |
+    - Citation : transformation concrète + peur surmontée
+    - Identité : Prénom, âge, métier
+    - Date : mois/année du parcours terminé
+    - Contexte : "Avant : [...] Après : [...]"
+
+  exemples_actuels_a_remplacer:
+    - "Sophie, 42 ans, Coach en nutrition"
+    - "Marie, 38 ans, Infirmière"
+    - "Claire, 45 ans, Thérapeute"
+
+## Images
+# Actuellement : images Unsplash placeholder
+# À faire : Remplacer par vraies photos
+images:
+  statut: "PLACEHOLDER - À remplacer"
+  action_requise: |
+    1. Portrait professionnel Duy (N&B de qualité)
+    2. Hero image : danse libre ou photo symbolique authenticité
+    3. Photos atmosphère (optionnel) : nature, lumière, connexion
+
+  fichiers_a_remplacer:
+    hero: "https://images.unsplash.com/photo-1518834107812-67b0b7c58434"
+    portrait: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d"
+
+  specifications:
+    - Format WebP + fallback JPG
+    - Résolution : 3 tailles (mobile/tablet/desktop)
+    - Optimisation : compression sans perte de qualité
+
+## Coordonnées contact
+# Actuellement : partiellement complétées
+# À faire : Vérifier et compléter
+contact:
+  statut: "PARTIEL - À vérifier"
+  action_requise: |
+    1. Confirmer numéro de téléphone (actuellement "+33 6 XX XX XX XX")
+    2. Vérifier email contact@sexualite-authentique.fr fonctionne
+    3. Confirmer lien TidyCal : https://tidycal.com/duy-dang/seance-diagnostic
+
+  a_verifier:
+    - phone: "+33 6 XX XX XX XX"
+    - email: "contact@sexualite-authentique.fr"
+    - tidycal: "https://tidycal.com/duy-dang/seance-diagnostic"
+
+## Réseaux sociaux
+# Actuellement : partiellement renseignés
+# À faire : Compléter liens manquants
+social:
+  statut: "INCOMPLET - À compléter"
+  action_requise: |
+    1. Ajouter lien YouTube si chaîne existe
+    2. Ajouter lien Instagram si compte existe
+    3. Vérifier lien Facebook fonctionne
+
+  present:
+    - facebook: "https://www.facebook.com/duydang.sexualite"
+
+  manquant:
+    - youtube: ""
+    - instagram: ""
+    - linkedin: ""
+    - twitter: ""
+
+## Chiffres et statistiques
+# Actuellement : estimations
+# À faire : Valider chiffres exacts
+statistiques:
+  statut: "ESTIMÉ - À valider"
+  action_requise: |
+    1. Confirmer nombre exact de clientes accompagnées (actuellement 20)
+    2. Confirmer taux de satisfaction 90% (source : instructions initiales)
+    3. Ajouter autres métriques si disponibles (ex: nombre d'heures coaching)
+
+  a_confirmer:
+    clientes_accompagnees: 20
+    taux_satisfaction: "90%"
+    annees_experience_coaching: "À préciser"
+    annees_danse: 17
+    annees_shivaisme: 13
+    annees_formation_communication: 10
+
+## Contenu blog
+# Actuellement : 4 articles publiés
+# À faire : Planifier calendrier éditorial
+blog:
+  statut: "EN COURS"
+  action_requise: |
+    1. Définir rythme de publication (ex: 1 article/semaine)
+    2. Sélectionner 10-15 posts Facebook à adapter en articles
+    3. Créer articles ciblant mots-clés longue traîne pour SEO
+
+  articles_existants:
+    - "Le Tigre et le Masque"
+    - "Eau 99° vs 100°"
+    - "EPE vers RCS"
+    - "Séduction vs Sélection"
+
+  suggestions_articles_seo:
+    - "Comment dire non sans culpabilité dans le couple"
+    - "Surmonter la peur de perdre l'autre en étant soi-même"
+    - "Pourquoi je reproduis toujours les mêmes schémas amoureux"
+    - "La différence entre sexologue et coach en sexualité authentique"
+    - "Comment communiquer ses désirs dans l'intimité"
+
+## Garantie satisfait ou remboursé
+# Actuellement : définie dans l'analyse
+# À faire : Valider conditions exactes
+garantie:
+  statut: "DÉFINI - À confirmer"
+  action_requise: |
+    1. Confirmer période d'essai : 2 premières séances
+    2. Confirmer remboursement intégral sans justification
+    3. Rédiger conditions générales de vente (CGV) incluant la garantie
+    4. Faire valider par avocat/juriste si possible
+
+  proposition:
+    periode_essai: "2 premières séances (2 semaines)"
+    remboursement: "Intégral sans justification"
+    delai_demande: "Avant la 3ème séance"
+
+## Pages légales
+# Actuellement : pages créées mais contenu minimal
+# À faire : Compléter avec vraies informations légales
+legal:
+  statut: "STRUCTURE CRÉÉE - Contenu à compléter"
+  action_requise: |
+    1. Mentions légales : SIRET, statut juridique, hébergeur
+    2. Politique de confidentialité : RGPD, cookies, données
+    3. CGV : conditions parcours, garantie, paiement, annulation
+    4. Faire valider par professionnel du droit
+
+  pages_a_completer:
+    - "/mentions-legales/"
+    - "/politique-confidentialite/"
+    - "/cgv/"
+
+## Analytics et tracking
+# Actuellement : non configuré
+# À faire : Installer outils de mesure
+analytics:
+  statut: "NON CONFIGURÉ"
+  action_requise: |
+    1. Installer Google Analytics 4 ou Plausible (RGPD-friendly)
+    2. Configurer objectifs de conversion (clics CTA, pages vues)
+    3. Installer pixel Facebook si pub Facebook envisagée
+    4. Configurer Google Search Console pour SEO
+
+  outils_a_installer:
+    - "Google Analytics 4 ou Plausible Analytics"
+    - "Google Search Console"
+    - "Hotjar ou Microsoft Clarity (heatmaps - optionnel)"
+
+## Lead magnet (Quiz)
+# Actuellement : non créé
+# À faire : Développer quiz "Amant Sensible"
+lead_magnet:
+  statut: "NON CRÉÉ - Priorité 2-3"
+  action_requise: |
+    1. Créer quiz 20 questions sur TypeForm ou Google Forms
+    2. Définir 3 profils de résultat (A/B/C)
+    3. Créer séquence email automatique (5-7 emails sur 2 semaines)
+    4. Intégrer avec outil emailing (Mailchimp, SendInBlue, etc.)
+
+  structure_quiz:
+    nom: "Êtes-vous un·e Amant·e Sensible ?"
+    questions: 20
+    duree: "5 minutes"
+    resultat: "Profil + recommandations personnalisées par email"
+
+## Séquence email automatique
+# Actuellement : non créée
+# À faire : Rédiger emails nurturing
+email_sequence:
+  statut: "NON CRÉÉ"
+  action_requise: |
+    1. Rédiger 5-7 emails dans le style Duy
+    2. Intégrer histoires/métaphores des posts Facebook
+    3. Progression : Prise de conscience → Transformation → Invitation séance
+    4. Configurer automation sur outil emailing
+
+  structure_proposee:
+    email_1: "Bienvenue + résultat quiz détaillé"
+    email_2: "Histoire : Le masque et le tigre"
+    email_3: "Les 3 peurs qui bloquent l'authenticité"
+    email_4: "Témoignage : Comment Sophie a osé les 100%"
+    email_5: "Invitation : Séance diagnostic offerte"
+
+## Optimisation images
+# Actuellement : images non optimisées
+# À faire : Optimiser performance
+optimisation_images:
+  statut: "À FAIRE - Priorité 2"
+  action_requise: |
+    1. Convertir toutes les images en WebP (avec fallback JPG)
+    2. Créer 3 versions : mobile (800px), tablet (1200px), desktop (1920px)
+    3. Implémenter lazy loading (sauf hero)
+    4. Compresser sans perte avec outils type TinyPNG
+
+  impact_attendu: "Réduction temps de chargement de 30-50%"
+
+---
+
+# INSTRUCTIONS POUR CLAUDE
+
+Quand tu démarres une nouvelle session :
+1. Lis ce fichier en premier
+2. Rappelle à Duy les éléments prioritaires à compléter
+3. N'utilise JAMAIS les contenus temporaires comme s'ils étaient vrais
+4. Propose de mettre à jour ce fichier quand nouveaux éléments identifiés

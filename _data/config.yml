@@ -27,17 +27,21 @@ diagnostic:
 
 # Les 4 transformations
 transformations:
-  - titre: "Oser sans peur ni honte"
-    description: "Vous exprimez vos désirs, vos limites, votre vérité. Sans masque. Sans peur de perdre l'autre."
+  - titre: "Vous exprimez vos désirs sans honte"
+    avant: "Je faisais semblant d'aimer ce qu'il aimait."
+    apres: "Je lui dis ce qui me fait vibrer. Et il adore."
     icon: "✨"
-  - titre: "Attirer l'amour vrai"
-    description: "Vous créez une relation basée sur qui vous êtes vraiment. Pas sur qui vous croyez devoir être."
+  - titre: "Vous posez vos limites sans peur"
+    avant: "Je disais oui alors que je pensais non."
+    apres: "Je dis non clairement. Il me respecte encore plus."
     icon: "💕"
-  - titre: "Vivre sans masque"
-    description: "Votre sexualité devient l'expression de votre être profond. Pas une performance. Une révélation."
+  - titre: "Votre sexualité devient révélation, pas performance"
+    avant: "Je pensais à ma technique, à mon corps, à son plaisir."
+    apres: "Je suis présente. Je ressens. Je me laisse toucher."
     icon: "🔥"
-  - titre: "Être libre et aimée"
-    description: "Vous vous sentez pleinement vous-même ET profondément aimée. Les deux en même temps. Enfin."
+  - titre: "Vous vous sentez aimée pour qui vous êtes vraiment"
+    avant: "J'avais peur que s'il me voyait vraiment, il parte."
+    apres: "Plus je suis moi-même, plus il se rapproche."
     icon: "🕊️"
 
 # Les 4 étapes du parcours
@@ -112,6 +116,6 @@ navigation:
 
 # CTA principal
 cta_principal:
-  texte: "Réserver ma Séance Offerte"
+  texte: "Profiter de notre séance diagnostic offerte"
   url: "/seance-diagnostic/"
   couleur: "bordeaux"

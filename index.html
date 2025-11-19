@@ -10,24 +10,32 @@ body_class: "page-home"
   <div class="container">
     <div class="hero-content">
       <div class="hero-text">
+        <p class="hero-surtitre">Pour les femmes sensibles de 30-65 ans qui ont déjà fait un chemin personnel</p>
         <h1>{{ site.data.config.why.titre }}</h1>
         <p class="subtitle">
           Et si le problème n'était pas de trouver la bonne personne,<br>
           mais d'oser être pleinement vous-même ?
         </p>
+        <div class="hero-proof">
+          <span class="proof-item">✓ 20 femmes accompagnées</span>
+          <span class="proof-item">✓ 17 ans de danse libre</span>
+          <span class="proof-item">✓ 13 ans de Shivaïsme</span>
+          <span class="proof-item">✓ 90% de satisfaction</span>
+        </div>
         <div class="hero-cta">
           <a href="{{ site.data.config.cta_principal.url | relative_url }}" class="btn btn-bordeaux btn-large">
             {{ site.data.config.cta_principal.texte }}
           </a>
-          <a href="{{ '/mon-approche/' | relative_url }}" class="btn btn-outline btn-large">
-            Découvrir mon approche →
+          <a href="{{ '/mon-approche/' | relative_url }}" class="hero-link-secondary">
+            Découvrir l'approche 99° vs 100° →
           </a>
         </div>
       </div>
       <div class="hero-image">
         <!-- Photo de danse en mouvement (placeholder) -->
         <img src="https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=600&h=700&fit=crop&auto=format&q=80"
-             alt="Danse libre - Liberté d'être">
+             alt="Danse libre - Liberté d'être"
+             loading="eager">
       </div>
     </div>
   </div>
@@ -113,7 +121,10 @@ body_class: "page-home"
       <div class="transformation-card">
         <div class="icon">{{ transformation.icon }}</div>
         <h3>{{ transformation.titre }}</h3>
-        <p>{{ transformation.description }}</p>
+        <div class="avant-apres">
+          <p class="avant"><strong>Avant :</strong> "{{ transformation.avant }}"</p>
+          <p class="apres"><strong>Après :</strong> "{{ transformation.apres }}"</p>
+        </div>
       </div>
       {% endfor %}
     </div>
@@ -183,6 +194,57 @@ body_class: "page-home"
   </div>
 </section>
 
+<!-- SECTION POURQUOI ME FAIRE CONFIANCE -->
+<section class="confiance section-beige">
+  <div class="container">
+    <h2 class="section-title">Pourquoi me faire confiance ?</h2>
+
+    <div class="confiance-grid">
+      <div class="confiance-item">
+        <div class="confiance-number">20</div>
+        <div class="confiance-text">
+          <strong>Femmes accompagnées</strong> vers les 100% d'authenticité
+        </div>
+      </div>
+
+      <div class="confiance-item">
+        <div class="confiance-number">90%</div>
+        <div class="confiance-text">
+          <strong>Taux de satisfaction</strong> après les 12 semaines
+        </div>
+      </div>
+
+      <div class="confiance-item">
+        <div class="confiance-number">17</div>
+        <div class="confiance-text">
+          <strong>Ans de danse libre</strong> (Contact Impro, 2-3x/semaine)
+        </div>
+      </div>
+
+      <div class="confiance-item">
+        <div class="confiance-number">13</div>
+        <div class="confiance-text">
+          <strong>Ans de Shivaïsme</strong> du Cachemire avec Eric Baret
+        </div>
+      </div>
+
+      <div class="confiance-item">
+        <div class="confiance-number">10</div>
+        <div class="confiance-text">
+          <strong>Ans de formation</strong> en communication et leadership
+        </div>
+      </div>
+
+      <div class="confiance-item">
+        <div class="confiance-number">✓</div>
+        <div class="confiance-text">
+          <strong>Ingénieur & Doctorant</strong> en mathématiques (rigueur)
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- SECTION QUI SUIS-JE EXPRESS -->
 <section class="qui-suis-je-home section-blanc">
   <div class="container">
@@ -196,12 +258,6 @@ body_class: "page-home"
       <div class="qui-suis-je-text">
         <h2>Duy Dang</h2>
         <h3>Coach en Relation Amoureuse & Sexualité Authentique</h3>
-        <p>
-          Formateur en communication et leadership pendant 10 ans.<br>
-          17 ans de pratique de danse libre et Contact Impro.<br>
-          13 ans d'accompagnement avec Eric Baret (Shivaïsme du Cachemire).<br>
-          Ingénieur, doctorant en mathématiques.
-        </p>
         <p>
           J'ai passé des années à croire qu'on pouvait vivre l'amour à 95%.
           J'avais tort.
@@ -220,18 +276,22 @@ body_class: "page-home"
 <!-- SECTION CTA FINAL -->
 <section class="cta-final">
   <div class="container">
-    <h2>Prête à découvrir ce que ça change, vraiment ?</h2>
-    <p>
-      Réservez votre Séance Diagnostic de 60 minutes.<br>
-      Complètement offerte. Sans engagement.
+    <h2>Vous vous reconnaissez dans au moins 3 des douleurs listées ?</h2>
+    <p class="cta-intro">
+      La Séance Diagnostic de 60 minutes vous permet de :
     </p>
-    <p>
-      On clarifie ensemble où vous en êtes et si le passage à 100%
-      est fait pour vous maintenant.
+    <ul class="cta-benefits">
+      <li>✓ Identifier votre masque de protection principal</li>
+      <li>✓ Comprendre d'où viennent vos peurs dans l'intimité</li>
+      <li>✓ Voir si le passage à 100% est fait pour vous maintenant</li>
+    </ul>
+    <p class="cta-details">
+      Complètement offerte. Visio. Sans engagement.
     </p>
-    <a href="{{ site.data.config.cta_principal.url | relative_url }}" class="btn btn-large">
+    <a href="{{ site.data.config.cta_principal.url | relative_url }}" class="btn btn-bordeaux btn-large">
       {{ site.data.config.cta_principal.texte }}
     </a>
+    <p class="cta-footnote">Places limitées : 4 séances par semaine maximum</p>
   </div>
 </section>
 

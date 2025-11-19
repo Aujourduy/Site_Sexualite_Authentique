@@ -1,0 +1,27 @@
+{% comment %}
+  Analytics et tracking - RGPD-friendly
+
+  À ACTIVER EN PRODUCTION :
+  1. Remplacer "VOTRE_CLARITY_ID" par votre vrai ID Clarity
+  2. Le script Plausible est déjà configuré pour sexualite-authentique.fr
+  3. Ne s'exécute QUE en production (pas en local)
+{% endcomment %}
+
+{% if jekyll.environment == 'production' %}
+
+<!-- Plausible Analytics - RGPD-friendly, hébergé EU, pas de cookies -->
+<script defer data-domain="sexualite-authentique.fr" src="https://plausible.io/js/script.js"></script>
+
+<!-- Microsoft Clarity - Heatmaps et session recordings (OPTIONNEL - À activer si souhaité) -->
+<!-- Décommenter et remplacer VOTRE_CLARITY_ID pour activer -->
+<!--
+<script type="text/javascript">
+  (function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+  })(window, document, "clarity", "script", "VOTRE_CLARITY_ID");
+</script>
+-->
+
+{% endif %}

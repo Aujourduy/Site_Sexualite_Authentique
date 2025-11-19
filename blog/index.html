@@ -7,10 +7,21 @@ show_hero: true
 breadcrumb: false
 ---
 
+<!-- Filtres par thème -->
+<div class="theme-filters">
+  <button class="filter-btn active" data-theme="tous">Tous les articles</button>
+  <button class="filter-btn" data-theme="Communication">Communication</button>
+  <button class="filter-btn" data-theme="Désir et plaisir">Désir et plaisir</button>
+  <button class="filter-btn" data-theme="Développement personnel">Développement personnel</button>
+  <button class="filter-btn" data-theme="Polarités masculin-féminin">Polarités</button>
+  <button class="filter-btn" data-theme="Relations amoureuses">Relations</button>
+  <button class="filter-btn" data-theme="Sexualité consciente">Sexualité consciente</button>
+</div>
+
 <div class="blog-list">
   {% if site.posts.size > 0 %}
     {% for post in site.posts %}
-      <article class="blog-post-preview">
+      <article class="blog-post-preview" data-theme="{{ post.theme | default: 'Autre' }}">
         <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
 
         <div class="post-meta">
@@ -56,8 +67,55 @@ breadcrumb: false
 </div>
 
 <style>
+/* Filtres */
+.theme-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: var(--spacing-2xl);
+  padding: var(--spacing-lg);
+  background: var(--blanc);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.filter-btn {
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--gris-clair);
+  background: var(--blanc);
+  color: var(--gris-fonce);
+  border-radius: var(--radius-full);
+  font-family: var(--font-family);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.filter-btn:hover {
+  border-color: var(--terracotta);
+  color: var(--terracotta);
+}
+
+.filter-btn.active {
+  background: var(--bordeaux);
+  border-color: var(--bordeaux);
+  color: var(--blanc);
+}
+
+.filter-btn.active:hover {
+  background: var(--terracotta);
+  border-color: var(--terracotta);
+}
+
+/* Articles */
 .blog-post-preview {
   margin-bottom: var(--spacing-2xl);
+  transition: opacity 0.3s ease;
+}
+
+.blog-post-preview.hidden {
+  display: none;
 }
 
 .blog-post-preview h2 {
@@ -94,3 +152,35 @@ breadcrumb: false
   color: var(--terracotta);
 }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const articles = document.querySelectorAll('.blog-post-preview');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+      const selectedTheme = this.dataset.theme;
+
+      // Mettre à jour les boutons actifs
+      filterBtns.forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+
+      // Filtrer les articles
+      articles.forEach(article => {
+        const articleTheme = article.dataset.theme;
+
+        if (selectedTheme === 'tous') {
+          article.classList.remove('hidden');
+        } else {
+          if (articleTheme === selectedTheme) {
+            article.classList.remove('hidden');
+          } else {
+            article.classList.add('hidden');
+          }
+        }
+      });
+    });
+  });
+});
+</script>

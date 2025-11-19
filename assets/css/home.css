@@ -19,6 +19,15 @@
   align-items: center;
 }
 
+.hero-surtitre {
+  font-size: var(--font-size-sm);
+  color: var(--bordeaux);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: 0.5px;
+  margin-bottom: var(--spacing-md);
+  display: block;
+}
+
 .hero-text h1 {
   font-size: var(--font-size-4xl);
   line-height: 1.2;
@@ -30,14 +39,40 @@
   font-size: var(--font-size-xl);
   color: var(--gris-moyen);
   font-weight: var(--font-weight-light);
-  margin-bottom: var(--spacing-2xl);
+  margin-bottom: var(--spacing-xl);
   line-height: 1.5;
+}
+
+.hero-proof {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.proof-item {
+  font-size: var(--font-size-sm);
+  color: var(--gris-moyen);
+  font-weight: var(--font-weight-medium);
 }
 
 .hero-cta {
   display: flex;
+  flex-direction: column;
   gap: var(--spacing-md);
-  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.hero-link-secondary {
+  color: var(--bordeaux);
+  font-size: var(--font-size-md);
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+  transition: opacity 0.2s ease;
+}
+
+.hero-link-secondary:hover {
+  opacity: 0.7;
 }
 
 .hero-image {
@@ -95,6 +130,64 @@
 .metaphore-highlight {
   font-weight: var(--font-weight-semibold);
   color: var(--gris-fonce);
+}
+
+/* Section Confiance */
+.confiance {
+  background-color: var(--beige-chaud);
+}
+
+.confiance .section-title {
+  text-align: center;
+  margin-bottom: var(--spacing-3xl);
+}
+
+.confiance-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-xl);
+  max-width: var(--container-large);
+  margin: 0 auto;
+}
+
+.confiance-item {
+  text-align: center;
+  padding: var(--spacing-xl);
+  background-color: var(--blanc);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.confiance-number {
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--bordeaux);
+  margin-bottom: var(--spacing-md);
+  line-height: 1;
+}
+
+.confiance-text {
+  font-size: var(--font-size-md);
+  color: var(--gris-moyen);
+  line-height: 1.5;
+}
+
+.confiance-text strong {
+  display: block;
+  color: var(--gris-fonce);
+  margin-bottom: var(--spacing-xs);
+}
+
+@media (max-width: 1024px) {
+  .confiance-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .confiance-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Section Douleurs */
@@ -181,9 +274,23 @@
   color: var(--bordeaux);
 }
 
-.transformation-card p {
+.avant-apres {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.avant-apres p {
   color: var(--gris-moyen);
-  line-height: 1.7;
+  line-height: 1.6;
+  font-size: var(--font-size-sm);
+  font-style: italic;
+}
+
+.avant-apres strong {
+  font-style: normal;
+  font-weight: var(--font-weight-semibold);
+  color: var(--gris-fonce);
 }
 
 .transformations-cta {
@@ -418,12 +525,40 @@
   margin-bottom: var(--spacing-md);
 }
 
-.cta-final p {
+.cta-intro {
   color: var(--blanc-casse);
   font-size: var(--font-size-lg);
   max-width: var(--container-small);
-  margin: 0 auto var(--spacing-xl);
+  margin: 0 auto var(--spacing-md);
   line-height: 1.7;
+}
+
+.cta-benefits {
+  list-style: none;
+  padding: 0;
+  max-width: var(--container-small);
+  margin: 0 auto var(--spacing-xl);
+  text-align: left;
+}
+
+.cta-benefits li {
+  color: var(--blanc);
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.7;
+}
+
+.cta-details {
+  color: var(--blanc-casse);
+  font-size: var(--font-size-md);
+  margin-bottom: var(--spacing-xl);
+}
+
+.cta-footnote {
+  color: var(--blanc-casse);
+  font-size: var(--font-size-sm);
+  margin-top: var(--spacing-md);
+  font-style: italic;
 }
 
 .cta-final .btn {
