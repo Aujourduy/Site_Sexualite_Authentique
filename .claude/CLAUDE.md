@@ -18,6 +18,14 @@ Lire au début de CHAQUE session :
 - **Typo :** Montserrat
 - **Style :** Épuré, chaleureux, profond
 
+### Cible / Audience
+Femmes avec ces caractéristiques :
+- **Sensibilité :** Sensibles aux énergies
+- **Parcours :** Plusieurs années de travail sur soi
+- **Métier :** Activité dans le care ou tournée vers les autres (docteur, aide-soignante, naturopathe, coach, formatrice, mère au foyer...)
+- **Vécu :** Relations ou fins de relation douloureuses
+- **Pratique :** Activité artistique régulière
+
 ## 🎯 Priorités
 
 1. Contenu de qualité > Fonctionnalités complexes
