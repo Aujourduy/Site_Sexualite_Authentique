@@ -51,6 +51,38 @@ SexualiteAuthentique/
 
 ## 📝 HISTORIQUE DES SESSIONS
 
+### Session 2025-11-22
+**Durée :** ~2h
+**Statut :** ✅ Terminée avec succès
+**Travaux effectués :**
+
+**1. Mise à jour des liens de contact**
+- ✅ Formulaire de contact via Tally (https://tally.so/r/w4Md2k)
+- ✅ Lien TidyCal mis à jour (seance-de-clarification-femme)
+- ✅ Suppression de l'email contact@sexualite-authentique.fr du site
+
+**2. Mise à jour page Qui suis-je**
+- ✅ Ajout Julien Musy (Méthode De Martini) dans les influences
+- ✅ Séparation "Les danses libres" et "La danse Contact Impro"
+- ✅ Suppression "90% de satisfaction" de la page d'accueil
+
+**3. Création des pages légales**
+- ✅ Mentions légales (mentions-legales.md)
+- ✅ Politique de confidentialité (politique-confidentialite.md)
+- ✅ CGV (cgv.md)
+
+**4. Réorganisation du blog par impact**
+- ✅ Analyse et classement des 209 articles selon : Simple, Surprenant, Puissant
+- ✅ Renommage des fichiers pour réordonner (top 10 : Le tigre et le masque, Gratitude vs colère, L'aphrodisiaque...)
+- ✅ Fix conflit URL "Les 4 dimensions de l'être"
+
+**Commits pushés :**
+- dd12d77 : Mise à jour contact et ajout pages légales
+- 454b4f5 : Réorganisation blog par ordre d'impact
+- cf8885a : Fix conflit URL article doublon
+
+---
+
 ### Session 2025-11-19 (Téléphone)
 **Durée :** ~1h
 **Statut :** Session interrompue - À reprendre sur PC
