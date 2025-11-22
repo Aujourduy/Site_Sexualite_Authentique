@@ -8,9 +8,9 @@ show_cta: false
 
 ## Vous avez une question ?
 
-N'hésitez pas à me contacter par **email** :
+N'hésitez pas à me contacter via le formulaire :
 
-📧 **[{{ site.data.config.contact.email }}](mailto:{{ site.data.config.contact.email }})**
+👉 **[M'envoyer un message]({{ site.data.config.contact.formulaire }})**{: .btn .btn-bordeaux .btn-large}
 
 Je réponds personnellement à tous les messages, généralement sous 24-48h.
 

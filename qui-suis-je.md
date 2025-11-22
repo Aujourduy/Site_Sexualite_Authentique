@@ -198,7 +198,9 @@ C'est comme ça que ça marche.
 - **Eric Baret** (Shivaïsme du Cachemire) : l'accueil, la présence, la non-dualité
 - **Byron Katie** (The Work) : que je pratique toutes les semaines depuis 10 ans - questionner les pensées, retourner les croyances, la libération par l'investigation
 - **Thich Nhat Hanh** (Bouddhisme) : la pleine conscience, la paix
-- **La danse Contact Impro** : l'écoute du corps, la gestion du oui/non, la liberté d'être
+- **Julien Musy** (Méthode De Martini) : raison d'être, équilibrer les perceptions, systèmes de valeurs
+- **Les danses libres** (la danse des 5 rythmes, l'ecstatic dance, etc) : l'écoute de soi, de l'espace, de la musique, de ses élans intérieurs, de la fulgurance d'un appel, de la patience du bon timing
+- **La danse Contact Impro** : l'écoute des corps, des poids, de la qualité des contacts, la gestion du oui/non à chaque instant
 - **Mes clientes** : chacune m'enseigne quelque chose de nouveau sur la féminité, le désir, la vérité
 
 ---

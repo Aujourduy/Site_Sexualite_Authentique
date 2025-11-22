@@ -50,13 +50,9 @@ contact:
   statut: "PARTIEL - À vérifier"
   action_requise: |
     1. Confirmer numéro de téléphone (actuellement "+33 6 XX XX XX XX")
-    2. Vérifier email contact@sexualite-authentique.fr fonctionne
-    3. Confirmer lien TidyCal : https://tidycal.com/duy-dang/seance-diagnostic
 
   a_verifier:
     - phone: "+33 6 XX XX XX XX"
-    - email: "contact@sexualite-authentique.fr"
-    - tidycal: "https://tidycal.com/duy-dang/seance-diagnostic"
 
 ## Réseaux sociaux
 # Actuellement : partiellement renseignés

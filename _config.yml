@@ -10,7 +10,6 @@ baseurl: ""
 author:
   name: "Duy Dang"
   bio: "Coach en Relation Amoureuse & Sexualité Authentique"
-  email: "contact@sexualite-authentique.fr"
 
 # Build settings
 markdown: kramdown
