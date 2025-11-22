@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Les 4 dimensions de l’être"
+title: "Les 4 dimensions de l'être - introduction"
 date: 2025-07-18
 categories: [relations, desir]
 tags: [desir, conscience, sexualite-sensible, developpement-personnel, epanouissement, croissance]
