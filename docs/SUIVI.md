@@ -51,6 +51,20 @@ SexualiteAuthentique/
 
 ## 📝 HISTORIQUE DES SESSIONS
 
+### Session 2025-11-26
+**Durée :** ~5 min
+**Statut :** ✅ Terminée avec succès
+**Travaux effectués :**
+
+**1. Retrait page Ressources du menu**
+- ✅ Suppression de l'entrée "Ressources" dans la navigation (_data/config.yml)
+- ✅ Ajout tâche "Construire la page Ressources" dans SUIVI_ENCOURS
+
+**Commits pushés :**
+- À venir : Retrait menu Ressources et mise à jour SUIVI
+
+---
+
 ### Session 2025-11-22
 **Durée :** ~2h
 **Statut :** ✅ Terminée avec succès
@@ -199,7 +213,9 @@ SexualiteAuthentique/
 
 ## 🔄 TÂCHES EN COURS
 
-_Aucune tâche en cours actuellement._
+- [ ] Rajouter Sudheer Roche en néo-tantra
+- [ ] L'expérience l'Orgasme de la Vallée : Vérité <=> Amour. Une vérité que la plupart des psy, thérapeutes et coach ne connaissent pas
+- [ ] Construire la page Ressources
 
 ---
 

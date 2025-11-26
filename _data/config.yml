@@ -111,8 +111,6 @@ navigation:
     url: "/qui-suis-je/"
   - nom: "Blog"
     url: "/blog/"
-  - nom: "Ressources"
-    url: "/ressources/"
 
 # CTA principal
 cta_principal:
