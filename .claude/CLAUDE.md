@@ -4,7 +4,9 @@
 
 Lire au début de CHAQUE session :
 
-@docs/SUIVI.md
+@SUIVI_GLOBAL.md (journal des sessions)
+@SUIVI_ENCOURS.md (tâches actives)
+@SUIVI_APPRIS.md (base de connaissances)
 
 ## 🎨 Identité du Projet
 
