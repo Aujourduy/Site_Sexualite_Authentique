@@ -5,7 +5,7 @@ Journal de bord des sessions de travail sur le projet.
 ---
 
 ## Session #7 - 2025-12-08
-**Durée :** ~10 min
+**Durée :** ~20 min
 **Statut :** ✅ Terminée
 
 **Ce qui a été fait :**
@@ -14,12 +14,17 @@ Journal de bord des sessions de travail sur le projet.
 - Renommage intelligent des fichiers (suppression accents, espaces → underscores)
 - Changement dossier destination : /home/dang/Aujourduy/screenshots → /home/dang/transfert
 - Création alias `claudess` sur serveur pour afficher les instructions d'installation
+- Correction problème : wrapper déplacé de /transfert vers /bin (éviter suppression)
 
 **Fichiers créés/modifiés :**
 - /home/dang/bin/send-screenshots-server.sh (script principal centralisé)
-- /home/dang/transfert/claudess-wrapper.sh (wrapper pour PC clients)
+- /home/dang/bin/claudess-wrapper.sh (wrapper pour PC clients, déplacé de /transfert)
 - /home/dang/bin/claudess-info.sh (affichage instructions)
 - ~/.bashrc (ajout alias claudess)
+
+**Test réussi :**
+- PC local → serveur : "Discussion Claude.txt" → "Discussion_Claude.txt"
+- Fichier bien arrivé dans /home/dang/transfert/
 
 **Amélioration par rapport à l'ancienne version :**
 - Noms de fichiers conservés et nettoyés au lieu de "screenshot-1", "screenshot-2"
