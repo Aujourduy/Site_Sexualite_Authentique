@@ -4,6 +4,30 @@ Journal de bord des sessions de travail sur le projet.
 
 ---
 
+## Session #7 - 2025-12-08
+**Durée :** ~10 min
+**Statut :** ✅ Terminée
+
+**Ce qui a été fait :**
+- Amélioration du script `claudess` pour envoi de screenshots
+- Script centralisé sur le serveur pour maintenance unifiée
+- Renommage intelligent des fichiers (suppression accents, espaces → underscores)
+- Changement dossier destination : /home/dang/Aujourduy/screenshots → /home/dang/transfert
+- Création alias `claudess` sur serveur pour afficher les instructions d'installation
+
+**Fichiers créés/modifiés :**
+- /home/dang/bin/send-screenshots-server.sh (script principal centralisé)
+- /home/dang/transfert/claudess-wrapper.sh (wrapper pour PC clients)
+- /home/dang/bin/claudess-info.sh (affichage instructions)
+- ~/.bashrc (ajout alias claudess)
+
+**Amélioration par rapport à l'ancienne version :**
+- Noms de fichiers conservés et nettoyés au lieu de "screenshot-1", "screenshot-2"
+- Une seule version à maintenir sur le serveur
+- Détection automatique serveur vs client
+
+---
+
 ## Session #6 - 2025-11-26
 **Durée :** ~2h
 **Statut :** ✅ Terminée avec succès
